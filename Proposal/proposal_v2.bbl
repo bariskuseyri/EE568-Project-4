@@ -1,0 +1,46 @@
+\begin{thebibliography}{1}
+
+\bibitem{Pyrhonen}
+{\em Main Dimensions of a Rotating Machine}, chapter~6, pages 281--300.
+\newblock John Wiley and Sons, Ltd, 2008.
+
+\bibitem{FSDW}
+S.~{Bandyopadhyay}, M.~{van der Geest}, and H.~{Polinder}.
+\newblock Design optimisation of high performance fractional-slot distributed
+  winding pm synchronous machines for in-wheel application in electric
+  vehicles.
+\newblock In {\em 8th IET International Conference on Power Electronics,
+  Machines and Drives (PEMD 2016)}, pages 1--7, April 2016.
+
+\bibitem{172SIM}
+Cessna Aircraft Company, Wichita, KA.
+\newblock {\em 172S Skyhawk Information Manual}, 2004.
+
+\bibitem{io360operatorsManual}
+Lycoming, Williamsport, PA.
+\newblock {\em O, HO, IO, AIO, HIO, TIO-360 Series Operator’s Manual}, 2005.
+
+\bibitem{ec-640-2009}
+Council of~European~Union.
+\newblock Commission regulation (ec) no 640/2009 of 22 july 2009 implementing
+  directive 2005/32/ec of the european parliament and of the council with
+  regard to ecodesign requirements for electric motors.
+\newblock L 191:26--34, 23-07-2009.
+
+\bibitem{eu-2019-1781}
+Council of~European~Union.
+\newblock Commission regulation (eu) 2019/1781 of 1 october 2019 laying down
+  ecodesign requirements for electric motors and variable speed drives pursuant
+  to directive 2009/125/ec of the european parliament and of the council,
+  amending regulation (ec) no 641/2009 with regard to ecodesign requirements
+  for glandless standalone circulators and glandless circulators integrated in
+  products and repealing commission regulation (ec) no 640/2009.
+\newblock L 272:74--94, 25-10-2019.
+
+\bibitem{PMMforTA}
+Z.Q. Zhu.
+\newblock {\em Permanent Magnet Machines for Traction Applications}, pages
+  1--20.
+\newblock American Cancer Society, 2014.
+
+\end{thebibliography}

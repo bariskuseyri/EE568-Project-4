@@ -1,0 +1,17 @@
+\contentsline {section}{\numberline {1}Introduction}{2}%
+\contentsline {section}{\numberline {2}Literature Review}{2}%
+\contentsline {subsection}{\numberline {2.1}Torque Density}{2}%
+\contentsline {subsection}{\numberline {2.2}Torque Ripple}{2}%
+\contentsline {section}{\numberline {3}Analytical Calculation \& Sizing}{2}%
+\contentsline {subsection}{\numberline {3.1}specific machine constant}{2}%
+\contentsline {subsubsection}{\numberline {3.1.1}Magnetic Loading}{2}%
+\contentsline {subsubsection}{\numberline {3.1.2}Electrical Loading}{2}%
+\contentsline {subsection}{\numberline {3.2}Rough Dimensions}{2}%
+\contentsline {subsection}{\numberline {3.3}Winding Configurations}{3}%
+\contentsline {subsection}{\numberline {3.4}Machine Parameters}{3}%
+\contentsline {subsection}{\numberline {3.5}Material selection}{3}%
+\contentsline {subsection}{\numberline {3.6}Electrical circuit parameter}{3}%
+\contentsline {section}{\numberline {4}FEA Modelling}{3}%
+\contentsline {section}{\numberline {5}Comparison \& Discussion}{3}%
+\contentsline {section}{\numberline {6}Conclusion}{3}%
+\contentsline {section}{\numberline {7}Draft}{3}%

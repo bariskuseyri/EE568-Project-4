@@ -1,0 +1,171 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage{textcomp}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{indentfirst}
+
+
+\begin{document}
+	\title{Project 4 Proposal}
+	\author{Baris Kuseyri}
+	\date{\today}
+	\maketitle
+
+	\newpage
+	\section{Introduction}
+	In my MSc project, I designed an electric motor (EM) to be used as a part of an hybrid electric propulsion system for Cessna 172 Skyhawk. This proposal summarizes some key topics on the work done during the project.
+	\section{Proposal}
+	\label{sec:previousWork}
+	\subsection{The Application}
+	Hybrid electric propulsion system is defined as follows. Internal combustion engine (ICE), default to the aircraft, is used as the main propulsive source. The ICE default to this aircraft is Lycoming IO-360-L2A, rated 180 HP at 2700 RPM \cite{io360operatorsManual}. Additionally, an EM is implemented to the system in series, resulting with an hybrid system.
+	
+	172S Skyhawk Information Manual states that  full open throttle shall be applied during takeoff and enroute climbing operations, and recommends no more than 75\% power during cruise or landing operation \cite{172SIM}. Lycoming Operator's Manual reports the rated, performance cruise and economy cruise operations, which can be found in Table \ref{fig:ICEoperations} \cite{io360operatorsManual}.
+	
+	
+\begin{table}[h]
+	\begin{subtable}[h]{1.00\textwidth}
+		\begin{center}
+			\begin{tabular}{c|c|c}
+				Operation &  Speed [RPM] & Power [HP] \\
+				\hline
+				Normal Rated & $2700$ & $180$ \\
+				Performance Cruise (75\% Rated) & $2450$ & $135$ \\ 
+				Economy Cruise (65\% Rated) & $2350$ & $117$
+			\end{tabular}
+		\end{center}
+		\caption{as given in Operator's Manual}
+	\end{subtable}
+	\begin{subtable}[h]{1.00\textwidth}
+		\begin{center}
+			\begin{tabular}{c|c|c}
+				Operation &  Speed [rad/s] & Power [kW] \\
+				\hline
+				Normal Rated & $282.7433$ & $134.226$ \\
+				Performance Cruise (75\% Rated) & $256.5634$ & $100.670$ \\ 
+				Economy Cruise (65\% Rated) & $246.0914$ & $87.247$
+			\end{tabular}
+		\end{center}
+		\caption{in SI units}
+	\end{subtable}
+	\caption{Lycoming Operator's Manual IO-360-L2A Operating Conditions}
+	\label{fig:ICEoperations}
+\end{table}
+
+	The hybrid system is designed to draw no more than the power that is classified as economic cruise operation (65\% rated power, that is $\approx87.247$kW). EM's role is to deliver any additional power when it is desired from the system, as an example, during takeoff operations.
+	
+
+	\subsection{The Type of the Machine}
+	The type of the machine is fractional-slot concentrated winding, interior permanent magnet synchronous machine (FSCW-IPMSM). Slot/pole number of the motor is $N_s/2p=24slot/22pole$. The IPM is deployed in a v-shaped topology. The construction type of EM is radial-field, mainly for the purpose of simplicity. However, the axial length of the motor is significantly small with respect to rotor diameter; hence implementing axial-field topology may be beneficial \cite{PMMforTA}. A semiclosed type of stator slot is employed, with 50:50 tooth-to-slot ratio.
+	The results of the work done during the project dictates that a tooth tip of 9.5\textdegree mech. (out of $\frac{360}{N_s=24}=15$\textdegree mech.) is the most beneficial construction in terms of copper loss and cogging torque.
+	\subsection{Power, voltage and current ratings}
+	EM rated power is derived from the differences between ICE rated conditions and economic cruise conditions, and can be seen in Table \ref{fig:EMoperations}.
+	\begin{table}[h]
+		\begin{center}
+			\begin{tabular}{c|c|c}
+				Power [kW] &  Speed [rad/s] &  Torque [N$\cdot$m]\\
+				\hline
+				$46.9790$ & $282.7433$ & $166.1542$
+			\end{tabular}
+		\end{center}
+		\caption{Lycoming Operator's Manual IO-360-L2A Operating Conditions}
+		\label{fig:EMoperations}
+	\end{table}
+	
+	Linear current density is set to be $J=4A/mm^2$, that is the upper limit of acceptable spectrum for a PMSMs with single layer field winding \cite{Pyrhonen}. The corresponding peak current is $I_{peak}=46.4A$\footnote{Peak current is set as a function of linear current density and number of conductors per slot, and may differ with different EM parameters, i.e. slot dimensions} in the EM with 50:50 tooth-to-slot ratio and 9.5\textdegree mech tooth tip.
+	
+	The voltage rating is not previously handled in the project. It needs to be determined according to the available voltage standards.
+
+	
+	\subsection{Operating conditions}
+	Climb times for the aircraft at 2550 pounds ($\approx1160$ kg) are given in Table \ref{tab:climbTime} \cite{172SIM}.
+	\begin{table}[h]
+		\begin{center}
+			\begin{tabular}{c|c}
+				Press Alt [ft.] &  Time [min] \\
+				\hline
+				Sea Level & $0$ \\
+				$1000$ & $1$ \\
+				$2000$ & $3$ \\
+				$3000$ & $4$ \\
+				$4000$ & $6$ \\
+				$5000$ & $8$ \\
+				$6000$ & $10$ \\
+				$7000$ & $12$ \\
+				$8000$ & $14$ \\
+				$9000$ & $17$ \\
+				$10000$ & $20$ \\
+				$11000$ & $24$ \\
+				$12000$ & $28$
+			\end{tabular}
+		\end{center}
+		\caption{Cessna 172 Skyhawk Climb Time Data}
+		\label{tab:climbTime}
+	\end{table}
+	According to the climbing time data, the aircraft's longest ascent may not exceed 28 minutes. Therefore, the duty cycle of the EM is S2 28 minutes.
+	
+	The EM is desired to be sealed against particles, and resistant against rain. Therefore, the enclosure class is IP63. 
+	
+	The aircraft is stated to be able to operate up until a maximum altitude of $14000$ feet ($\approx4.3$ km).
+	Standard ambient temperature is reported as 15\textdegree C at sea level pressure altitude and decreases by 2\textdegree C for each $1000$ feet ($\approx304.8$ meters) of altitude. Therefore, the EM is required to be operable at ambient temperatures as low as -13\textdegree C at an altitude of $14000$ feet ($\approx4.3$ km), depending on sea level ambient temperature.
+	
+	\subsection{Limitations}
+	The cooling system of EM is an air cooled system, while it is preferable to use the same system that is used for cooling the ICE. The EM needs to be dust tight and resistant against rain. The application area is an flying vehicle; thus, fault-tolerance capabilities are important. EM's power density is desired to be as high as possible.
+	\subsubsection{Standards}
+	Ecodesign requirements in European Union dictates minimum efficiency ratings for EMs which are serve or to be sold in EU territory. Currently, these requirements are imposed only on single speed, three-phase 50Hz or 50/60Hz, induction motors with the following characteristics:
+	\begin{itemize}
+		\item 2 to 6 poles
+		\item rated output between 0.75kW and 375kW
+		\item rated voltage up to 1000V
+		\item rated on the basis of continuous duty operation
+	\end{itemize}
+and does not cover the type of EM this project is focused on \cite{ec-640-2009}. However, comission plans to include additional types of EMs to the regulation's scope, namely permanent magnet, synchronous and switched reluctance motors \cite{eu-2019-1781}. On another note, three-phase EMs with 0.75kW to 1000kW rated output power must reach the IE3 standards by July 2021, and EMs between 75kW and 200kW must meet the IE4 standards as of July 2023 \cite{eu-2019-1781}.
+	\subsubsection{Diameters}
+	The dimensions of the motor compartment are not given by the aircraft information manual in details \cite{172SIM}. Therefore, EM dimensions are determined according to ICE dimensions. EM height and width are limited by those of ICE, and EM length is desired to be as small as possible; hence, it can fit to the motor compartment with ICE. Dimensions of the ICE are given in Table \ref{tab:dimensions}. Additionally, dimension limitations for EM are also given in Table \ref{tab:dimensions}.
+	
+	\begin{table}[h]
+	\caption{Dimensions}
+		\begin{subtable}[h]{1.00\textwidth}
+			\begin{center}
+				\begin{tabular}{c|c|c}
+					height [inch] &  width [inch] &  length [inch]\\
+					\hline
+					$24.84$ & $33.37$ & $29.81$
+				\end{tabular}
+			\caption{Lycoming IO-360-L2A Dimensions}
+			\end{center}
+		\end{subtable}
+		\begin{subtable}[h]{1.00\textwidth}
+			\begin{center}
+				\begin{tabular}{c|c|c}
+					height [mm] &  width [mm] &  length [mm]\\
+					\hline
+					$630.936$ & $847.598$ & $757.174$ \\
+					$630.936$ & $847.598$ & as small as possible
+				\end{tabular}
+			\caption{EM Dimensions Limitations}
+			\end{center}
+		\end{subtable}
+		\label{tab:dimensions}
+	\end{table}
+	\newpage
+	
+	
+	\section{New Aspects}
+	The application of the EM is the same as the previous work, as stated in Section \ref{sec:previousWork}, above. Therefore, limitations, operating conditions and power, torque and speed ratings are also the same as it is described in Section \ref{sec:previousWork}, above.
+	
+	\subsection{Extend to the Work Done}
+	As a continuation to the work done, the machine can be reconstructed in axial-flux topology. Furthermore, harmonic analysis can be done to evaluate the working and parasitic harmonics on the machine. This analysis may be used to verify the results of the work done. Finally, for the same motor dimensions, output torque comparison can be studied.
+	
+	\subsection{Novel Work}
+	Distributed-Winding (DW) topology may be used to reconstruct the $N_s=24$ slot stator; hence, obtaining $N_s/2p=24/22$ Fractional-Slot Distributed-Winding (FSDW) topology. FSDW is claimed to be an unconventional winding scheme as an alternative to FSCW, especially for application in which low torque ripple is desired \cite{FSDW}. To verify this, FSCW and FSDW topologies may be comparatively studied, in terms of harmonic spectrum, total harmonic distortion and torque ripple.
+	
+	\subsubsection{Rotor}
+	The previous work consists of v-shaped IPM; however, this topology may be changed with inset PM topology with 80\% magnet arc ratio, to have a more simplistic design and to focus on the winding scheme.
+
+	
+	\newpage
+	
+	\bibliography{EE568_Project4_Proposal}{}
+	\bibliographystyle{plain}
+
+\end{document}

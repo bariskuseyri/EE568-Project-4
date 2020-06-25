@@ -1,0 +1,195 @@
+\documentclass [a4 paper, 11pt, titlepage] {article}
+
+\begin{document}
+	\title{EE568 Project 4}
+	\author{Baris Kuseyri}
+	\date{\today}
+	\maketitle
+	
+	\pagenumbering{arabic}
+	\tableofcontents
+	\newpage
+	
+	\section{Introduction}
+
+	DW stator topologies are the major stator type used in PMSMs. This is due to their near sinusoidal MMF which yields a high main harmonic winding factor and low torque ripple. It was not until very recently that it was shown that the right choice of slot and pole combination for a FSCW stator could yield a high main harmonic winding factor which is essential to having a high average torque \cite{farshadnia_advanced_2018}
+
+
+
+
+
+
+
+
+
+
+
+
+	\section{Literature Review}
+	analytical modelling of the stator MMF and machine equivalent airgap function are essential to correct calculation of the stator magnetic field and inductances, and subsequently torque and torque ripple. analytical formulae for the stator MMF. \cite{farshadnia_advanced_2018}.
+	
+	\subsection{Torque Density}
+	
+	\subsection{Torque Ripple}
+	
+	Cogging torque is one of the torque elements contributing to the torque ripple in the PMSM. Several design factors lead to variation on cogging torque. Here, one such aspect is investigated, that is the amount of stator teeth aligned with poles in the rotor at a given instance. For the corresponding magnetic circuit, permeance is highest when a rotor pole and a stator tooth are aligned. This results with a force that tries to keep the pole steady; hence, emerging a torque counter to the rotor rotation. This is called 'cogging torque'. More of such alignments result with more cogging torque. This description leads to the statement that the value of least common multiple (LCM) of the number of slots $Q$ and number of poles $2p$ is an indicator for the intesity of the cogging torque in a PMSM. LCM of $Q$ and $2p$ is inversely proportional to the cogging torque amplitude. 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	FSCW stator topologies are characterized by their slots per pole per phase ratio, denoted $S_{pp}$\cite{farshadnia_advanced_2018}. 
+	
+	
+	
+	
+	
+	
+	\section{Analytical Calculation \& Sizing}
+	
+	\subsection{specific machine constant}
+	\subsubsection{Magnetic Loading}
+	\subsubsection{Electrical Loading}
+	
+	\subsection{Rough Dimensions}
+		\begin{table}[h]
+		\begin{center}
+			\begin{tabular}{c|c}
+				 &  \\
+				\hline
+				airgap clearance & 0.7mm\\
+				rotor diameter & 290mm\\
+				axial length & 68mm 
+			\end{tabular}
+		\end{center}
+		\caption{Rough Dimensions}
+		\label{tab:roughDimensions}
+	\end{table}
+	
+	
+	
+	
+	\subsection{Winding Configurations}
+		\begin{table}[h]
+		\begin{center}
+			\begin{tabular}{c|c}
+				 &  \\
+				\hline
+				number of slots & \\
+				number of coils & \\
+				cable size & 
+			\end{tabular}
+		\end{center}
+		\caption{Winding Configurations}
+		\label{tab:windingConfigurations}
+	\end{table}
+	
+	
+	
+	
+	
+	\subsection{Machine Parameters}
+		\begin{table}[h]
+		\begin{center}
+			\begin{tabular}{c|c}
+				 &  \\
+				\hline
+				back-core thickness & 19.07mm \\
+				number of coils & \\
+				cable size & 
+			\end{tabular}
+		\end{center}
+		\caption{Machine Parameters}
+		\label{tab:machineParameters}
+	\end{table}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	\subsection{Material selection}
+		\begin{table}[h]
+		\begin{center}
+			\begin{tabular}{c|c}
+				 &  \\
+				\hline
+				back-core thickness & 19.07mm \\
+				number of coils & \\
+				cable size & 
+			\end{tabular}
+		\end{center}
+		\caption{Material selection}
+		\label{tab:materialSelection}
+	\end{table}
+	
+	
+	
+	
+	
+	
+	
+	
+	\subsection{Electrical circuit parameter}
+	
+	
+
+	
+
+	
+
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	\section{FEA Modelling}
+	\section{Comparison \& Discussion}
+	\section{Conclusion}
+
+
+	\section{Draft}
+	1\cite{alberti_theory_2011}
+	2\cite{babitsky_investigation_2019}
+	3\cite{boglietti_electrical_2014}
+	4\cite{carraro_design_2018}
+	5\cite{choi_reduction_2016}
+	6\cite{dajaku_advanced_2019}
+	7\cite{el-refaie_advanced_2014}
+	8\cite{el-refaie_fractional-slot_2010}
+	9\cite{el-refaie_fractional-slot_2013}
+	10\cite{farshadnia_advanced_2018}
+	11\cite{farshadnia_detailed_2016}
+	12\cite{geun-ho_lee_torque_2008}
+	13\cite{guemes_comparative_2010}
+	14\cite{han_torque_2007}
+	15\cite{he_evaluation_2019}
+	16\cite{howell_getting_2018}
+	17\cite{jussila_guidelines_2007}
+	18\cite{masmoudi_design_2019}
+	19\cite{reddy_generalized_2014}
+	20\cite{seok-hee_han_torque_2010}
+	21\cite{yokoi_general_2016}
+	22\cite{zhu_analysis_2018}
+	23\cite{zhu_novel_2019}
+	24\cite{zuopeng_design_2017}
+	\newpage
+	
+	\bibliography{bibliography} 
+	\bibliographystyle{ieeetr}
+\end{document}
