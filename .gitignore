@@ -1,0 +1,5 @@
+# Ignore folder named 'Articles'
+Articles/
+
+# Ignore folder named 'References'
+References/
