@@ -1,5 +1,9 @@
 \documentclass [a4 paper, 11pt, titlepage] {article}
 
+
+\usepackage{graphicx}
+\usepackage{IEEEtrantools}
+
 \begin{document}
 	\title{EE568 Project 4}
 	\author{Baris Kuseyri}
@@ -53,13 +57,84 @@
 	
 	
 	\section{Analytical Calculation \& Sizing}
+	As mentioned in the proposal the machine rating are,
+	\begin{table}[h]
+		\begin{center}
+			\begin{tabular}{c|c|c}
+				Power [kW] &  Speed [rad/s] &  Torque [N$\cdot$m]\\
+				\hline
+				$46.9790$ & $282.7433$ & $166.1542$
+			\end{tabular}
+		\end{center}
+		\caption{Lycoming Operator's Manual IO-360-L2A Operating Conditions}
+		\label{fig:EMoperations}
+	\end{table}
 	
-	\subsection{specific machine constant}
-	\subsubsection{Magnetic Loading}
-	\subsubsection{Electrical Loading}
+
+	
+	\subsection{Magnetic Loading \& Electrical Loading}
+	Permitted RMS values for linear current densities $\bar{A}$, current densities $J$ and peak air-gap flux densities for PMSMs with single-layer field winding, and the corresponding tangential stress $\sigma_{Ftan}$ are reported as follows:
+	\begin{table}[h]
+		\begin{center}
+			\begin{tabular}{c|c|c||c}
+				$\bar{A}$ $[kA/m]$ & $\hat{B}_g$ $[T]$ & $J$ $[A/mm^2]$ & $\sigma_{Ftan}$ $[Pa]$ \\
+				\hline
+				35-65 &  0.85-1.05 & 2-4 & 21000-48000\\
+				50 &  0.95 &  & 33876\\
+			\end{tabular}
+		\end{center}
+		\caption{PMSMs with Single-Layer Field Winding }
+		\label{fig:EMoperations}
+	\end{table}
+	Here, $\sigma_{Ftan}$ is calculated by
+	\begin{equation}
+		\sigma_{Ftan}=\frac{\hat{A}\hat{B}_g}{2}=\frac{\bar{A}\hat{B}_g}{\sqrt{2}}
+	\end{equation}
+	where, ($\hat{\cdot}$) is for peak value and ($\bar{\cdot}$) is for RMS value of the parameter.
+	Therefore, suitable magnetic and electric loading are chosen as
+	
+	\subsection{Specific Machine Constant}
+	\begin{IEEEeqnarray*}{rCl}
+		C &=& \frac{\pi^2}{\sqrt{2}}k_w\bar{A}\hat{B}_g=\frac{\pi^2}{2}k_w\hat{A}\hat{B}_g \\
+		&=& \frac{\pi^2}{\sqrt{2}}k_w\cdot50\cdot0.95 \\
+		&=& 331496.1\cdot k_w [W/m^3]
+	\end{IEEEeqnarray*}
+	where, $k_w$ is the winding factor.
+	
 	
 	\subsection{Rough Dimensions}
-		\begin{table}[h]
+	
+	
+	\paragraph{Rotor Volume $V_r$} in PMSMs can be calculated in a similar manner with asynchronous machines
+	\begin{IEEEeqnarray*}{rCl}
+		T &=& \sigma_{Ftan}r_r(2\pi r_rl') \\
+		&=& \sigma_{Ftan}V_r \\		
+	\end{IEEEeqnarray*}
+	\begin{IEEEeqnarray*}{rCl}
+		V_r &=& \pi\frac{D^2_r}{2}l'=\frac{T}{2\sigma_{Ftan}} \\
+		&=& \frac{166.1542}{2\cdot33876} = 0.0025 [m^3]
+	\end{IEEEeqnarray*}
+
+	\paragraph{Air-gap Clearance} in PMSMs can be calculated in a similar manner with asynchronous machines
+	\begin{IEEEeqnarray*}{rCl}
+		\delta &=& \frac{0.18+0.006P^{0.4}}{1000} [m]=\frac{0.18+0.006\cdot46979^{0.4}}{1000} [m] \\
+		&=& 6.235195394489506e-04[m] \\
+		&\approx& 0.624 [mm]
+	\end{IEEEeqnarray*}
+	
+	\paragraph{Equivalent Machine Length to Air-gap Diameter $\chi=\frac{l'}{D_g}$} in synchronous machines with pole-pair number more than 1, i.e. $p>1$, this ratio is calculated as
+	\begin{IEEEeqnarray*}{rCl}
+		\chi &=& \frac{l'}{D_g}\approx\frac{\pi}{4p}\sqrt{p} \\
+	\end{IEEEeqnarray*}
+	where, the $p$ stands for number of pole pairs in the machine. $\chi$ ratio for different number of pole-pairs $p$ can be seen in Fig. \ref{fig:chiRatio}.
+	\begin{figure}[h]
+		\includegraphics[width=\textwidth]{chiRatio.png}
+		\caption{$\chi$ ratio for different number of pole-pairs $p$}
+		\label{fig:chiRatio}
+	\end{figure}
+
+	
+	\begin{table}[h]
 		\begin{center}
 			\begin{tabular}{c|c}
 				 &  \\
@@ -96,6 +171,10 @@
 	
 	
 	\subsection{Machine Parameters}
+	
+	\paragraph{teeth/slot dimensions}
+	
+	\paragraph{back-core thickness}
 		\begin{table}[h]
 		\begin{center}
 			\begin{tabular}{c|c}
@@ -119,7 +198,28 @@
 	
 	
 	\subsection{Material selection}
-		\begin{table}[h]
+	
+	\paragraph{Magnet Material} There are no cost limitations to the EM application. Eclipse Magnetics inform that N35 grade NdFeB magnets have the VH/AH choice, in which the magnet can operate up until the temperatures of $230^{\circ}C$. This is not a requirement for the application, however, implementing N35 PM magnets omits the machine's operable temperature range dependency to the PM magnet demagnetization due to heat.
+	N35 grade NdFeB magnet characteristics are given in Table. \ref{tab:N35}
+	
+	
+	\begin{table}[h]
+		\begin{center}
+			\begin{tabular}{c|c|c}
+				$B_r$ [$mT$] & $H_c$ [$kA/m$] & Max. Energy BHMax [$kJ/m^3$] \\
+				\hline
+				1170 & 867 & 263
+			\end{tabular}
+		\end{center}
+		\caption{N35 grade NdFeB PM characteristics}
+		\label{tab:N35}
+	\end{table}
+	where, $B_r$ is remanence flux density and $H_c$ is coercivity.
+	
+	\paragraph{Lamination Material}
+	
+	
+	\begin{table}[h]
 		\begin{center}
 			\begin{tabular}{c|c}
 				 &  \\
