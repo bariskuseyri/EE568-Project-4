@@ -1,0 +1,55 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002020, month=000000000006, day=000000000026, hour=000000000016, min=000000000026, sec=000000000032)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000001244, lin=000000000036, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock4'
+	SolutionName='Performance'
+	SolutionID=1
+	V=591
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+$end 'SolutionBlock4'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock3'
+	'SolutionKey(SimSetup=0, Instance=\'SetupDefinition\', Solution=-1, VersionID=591)'='SolutionBlock5'
+	'SolutionKey(SimSetup=0, Instance=\'SolutionDefinition\', Solution=1, VersionID=591)'='SolutionBlock4'
+$end 'BlockMapName'
+$begin 'SolutionBlock5'
+	SimSetupID=0
+	SimSetupName='Setup1'
+	VersionID=591
+	SolveSetupID=0
+$end 'SolutionBlock5'
+$begin 'SolutionBlock3'
+	ProductName='RMxprt'
+	CircuitName='assm_24slot-26pole'
+	VersionID=591
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=618
+	MoveBackwards=false
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+$end 'SolutionBlock3'
+$begin '$index$'
+	$begin '$index$'
+		SolutionBlock3(pos=1006, lin=25, lvl=0)
+		SolutionBlock4(pos=370, lin=1, lvl=0)
+		BlockMapName(pos=615, lin=14, lvl=0)
+		SolutionBlock5(pos=892, lin=19, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=1244, lin=36, lvl=0)
+	$end '$index$'
+$end '$index$'

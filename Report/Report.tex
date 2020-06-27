@@ -1,6 +1,6 @@
 \documentclass [a4 paper, 11pt, titlepage] {article}
 
-
+\usepackage{nicematrix}
 \usepackage{graphicx}
 \usepackage{IEEEtrantools}
 
@@ -26,19 +26,46 @@
 
 
 
-
+	\subsection{Aims \& Objectives}
+	This paper designs an electric motor (EM) to be used as a part of an hybrid electric propulsion system for Cessna 172 Skyhawk. Definition of the hybrid electric propulsion system and the corresponding EM requirements, e.g. rated power, dimensional limitations etc., are outlined in the project proposal. Several EMs with different slot/pole combinations are designed, complying the described requirements. A comparative analysis is performed on these designs, focusing on torque density and cogging torque aspects. One design is chosen, and further alterations are applied to enhance the EM performance. Additionally, this paper proposes a novel winding topology to reduce the cogging torque.
 
 
 	\section{Literature Review}
+	The term FSCW is used to indicate that EM has a non-integral number of slots-per-pole-per-phase $q$,
+	\begin{IEEEeqnarray*}{rCl}
+		q = \frac{Q}{2pm}
+	\end{IEEEeqnarray*}
+	where, $Q$ is number of slots, $2p$ is number of poles and $m$ is number of phase.
+	
+	FSCW topologies are reported to exhibit higher power density. CW comprises of shorter end-windings, resulting with a lower copper loss due to end-windings, compared to DW. FSCW topologies display higher self-inductance, leading to a wider field-weakening region \cite{farshadnia_advanced_2018}.
+	The aspect of fault-tolerant in an EM is proportional to several characteristics.
+	
+	First of all, magnetic coupling between phases, which implies a high mutual inductance, diminishes the fault-tolerancy of an EM. Therefore, phases which are magnetically seperated is desired to achieve a higher fault-tolerancy rating \cite{bianchi_use_2006}. In SPM machines, single-layer winding demonstrates higher self-inductances and lower mutual inductances compared to its double-layer counterparts. A high self-inductance limits the amplitude of short-circuit current, a significant property for fault-tolerancy \cite{el-refaie_fractional-slot_2010} \cite{ishak_comparison_2006}. 
+	
+	
+	Secondly, it is desired to have phases which are physically seperated to achieve fault-tolerancy\cite{bianchi_use_2006}. Lastly, 
+	
+	
+	Mutual coupling between phasesTo achieve a greater fault-tolerant EM
+	
+	
+	Fractional-Slot Concentrated-Winding (FSCW) topology has become of great interest, since it provides a vast amount of choices for the electric motor (EM). 
+	
 	analytical modelling of the stator MMF and machine equivalent airgap function are essential to correct calculation of the stator magnetic field and inductances, and subsequently torque and torque ripple. analytical formulae for the stator MMF. \cite{farshadnia_advanced_2018}.
 	
 	\subsection{Torque Density}
 	
 	\subsection{Torque Ripple}
+	3 torque components are present in FSCW PMSM. These are: alignment torque, reluctance torque and cogging torque.
+	\begin{IEEEeqnarray*}{rCl}
+		T_{em}(t)=T_{align}(t)+T_{rel}(t)+T_{cog}(t)
+	\end{IEEEeqnarray*}
 	
-	Cogging torque is one of the torque elements contributing to the torque ripple in the PMSM. Several design factors lead to variation on cogging torque. Here, one such aspect is investigated, that is the amount of stator teeth aligned with poles in the rotor at a given instance. For the corresponding magnetic circuit, permeance is highest when a rotor pole and a stator tooth are aligned. This results with a force that tries to keep the pole steady; hence, emerging a torque counter to the rotor rotation. This is called 'cogging torque'. More of such alignments result with more cogging torque. This description leads to the statement that the value of least common multiple (LCM) of the number of slots $Q$ and number of poles $2p$ is an indicator for the intesity of the cogging torque in a PMSM. LCM of $Q$ and $2p$ is inversely proportional to the cogging torque amplitude. 
+	Torque generated as a result of the interaction between stator and rotor MMF is alignment torque. $p/2$th harmonic of PM flux linkage, corresponding to fundamental component, contributes to the average alignment torque. Remaining harmonic components provides for the alignment torque ripple \cite{farshadnia_advanced_2018}.
+	Torque generated as a result of the stator field aligning the rotor as the reluctance of the magnetic circuit is minimum. Reluctance varies according to the rotor position, while an IPM machine is magnetically salient. This saliency forms as the PM permeability is approximately equals to that of air; thus, contributing to the air-gap length. Similar to alignment torque, $p/2$th harmonic of self and mutual inductance, corresponding to fundamental component, contributes to the average alignment torque. Remaining harmonic components provides for the reluctance torque ripple \cite{farshadnia_advanced_2018}.
 	
-	
+		
+	Cogging torque is one of the torque elements contributing to the torque ripple in the PMSM. Several design factors lead to variation on cogging torque. Here, one such aspect is investigated, that is the amount of stator teeth aligned with poles in the rotor at a given instance. For the corresponding magnetic circuit, permeance is highest when a rotor pole and a stator tooth are aligned. This results with a force that tries to keep the pole steady; hence, emerging a torque counter to the rotor rotation. This is called 'cogging torque'. More of such alignments result with more cogging torque. This description leads to the statement that the value of least common multiple (LCM) of the number of slots $Q$ and number of poles $2p$ is an indicator for the intesity of the cogging torque in a PMSM. LCM of $Q$ and $2p$ is inversely proportional to the cogging torque amplitude \cite{farshadnia_advanced_2018} \cite{zhu_influence_2000}.
 	
 	
 	
@@ -152,7 +179,23 @@
 	
 	
 	\subsection{Winding Configurations}
-		\begin{table}[h]
+	This paper analyses single-layer FSCW winding configurations. In this manner, topologies with number of slots as $Q=18, 24$, and number of poles as $2p=16, 20, 22, 26, 28$ are inspected. These slot/pole combinations and their corresponding winding factors are presented in Table \ref{tab:windingConf}.
+	\begin{table}[h]
+		\begin{center}
+			$\begin{NiceArray}{|C|C|C|C|C|}[first-row,first-col]
+				Q/2p & 16 & 20 & 22 & 26 & 28 \\
+				\hline
+				18 & 0.945 & 0.945 & 0.902 & 0.735 & 0.617 \\
+				\hline
+				24 & 0.866 & 0.966 & 0.958 & 0.958 & 0.966 \\
+				\hline
+			\end{NiceArray}$
+		\end{center}
+		\caption{Winding Configurations}
+		\label{tab:windingConf}
+	\end{table}	
+	
+	\begin{table}[h]
 		\begin{center}
 			\begin{tabular}{c|c}
 				 &  \\
@@ -201,7 +244,6 @@
 	
 	\paragraph{Magnet Material} There are no cost limitations to the EM application. Eclipse Magnetics inform that N35 grade NdFeB magnets have the VH/AH choice, in which the magnet can operate up until the temperatures of $230^{\circ}C$. This is not a requirement for the application, however, implementing N35 PM magnets omits the machine's operable temperature range dependency to the PM magnet demagnetization due to heat.
 	N35 grade NdFeB magnet characteristics are given in Table. \ref{tab:N35}
-	
 	
 	\begin{table}[h]
 		\begin{center}
