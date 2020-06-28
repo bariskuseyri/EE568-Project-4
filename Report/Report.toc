@@ -3,26 +3,27 @@
 \contentsline {section}{\numberline {2}Literature Review}{2}%
 \contentsline {subsection}{\numberline {2.1}Torque Density}{3}%
 \contentsline {subsection}{\numberline {2.2}Torque Ripple}{3}%
-\contentsline {section}{\numberline {3}Analytical Calculation \& Sizing}{3}%
-\contentsline {subsection}{\numberline {3.1}Magnetic Loading \& Electrical Loading}{3}%
-\contentsline {subsection}{\numberline {3.2}Specific Machine Constant}{4}%
-\contentsline {subsection}{\numberline {3.3}Rough Dimensions}{4}%
-\contentsline {paragraph}{Rotor Volume $V_r$}{4}%
-\contentsline {paragraph}{Air-gap Clearance}{4}%
+\contentsline {section}{\numberline {3}Analytical Calculation \& Sizing}{4}%
+\contentsline {subsection}{\numberline {3.1}Magnetic Loading \& Electrical Loading}{4}%
+\contentsline {subsection}{\numberline {3.2}Specific Machine Constant}{5}%
+\contentsline {subsection}{\numberline {3.3}Rough Dimensions}{5}%
+\contentsline {paragraph}{Rotor Volume $V_r$}{5}%
+\contentsline {paragraph}{Air-gap Clearance}{5}%
 \contentsline {paragraph}{Equivalent Machine Length to Air-gap Diameter $\chi =\frac {l'}{D_g}$}{5}%
 \contentsline {subsection}{\numberline {3.4}Winding Configurations}{5}%
-\contentsline {subsection}{\numberline {3.5}Machine Parameters}{5}%
-\contentsline {paragraph}{Split Ratio $\lambda $}{5}%
-\contentsline {paragraph}{teeth/slot opening}{6}%
-\contentsline {paragraph}{back-core thickness}{6}%
+\contentsline {subsection}{\numberline {3.5}Machine Parameters}{6}%
+\contentsline {paragraph}{Split Ratio $\lambda $}{6}%
+\contentsline {paragraph}{teeth/slot opening}{7}%
+\contentsline {paragraph}{back-core thickness}{7}%
 \contentsline {paragraph}{teeth/slot height}{7}%
 \contentsline {paragraph}{slot outer length}{7}%
-\contentsline {subsection}{\numberline {3.6}Material selection}{7}%
-\contentsline {paragraph}{Magnet Material}{7}%
-\contentsline {paragraph}{Lamination Material}{7}%
+\contentsline {paragraph}{slot tip width}{7}%
+\contentsline {subsection}{\numberline {3.6}Material selection}{8}%
+\contentsline {paragraph}{Magnet Material}{8}%
+\contentsline {paragraph}{Lamination Material}{8}%
 \contentsline {subsection}{\numberline {3.7}Electrical circuit parameter}{8}%
 \contentsline {subsection}{\numberline {3.8}Overall}{8}%
-\contentsline {section}{\numberline {4}FEA Modelling}{8}%
-\contentsline {section}{\numberline {5}Comparison \& Discussion}{8}%
-\contentsline {section}{\numberline {6}Conclusion}{8}%
-\contentsline {section}{\numberline {7}Draft}{8}%
+\contentsline {section}{\numberline {4}FEA Modelling}{9}%
+\contentsline {section}{\numberline {5}Comparison \& Discussion}{9}%
+\contentsline {section}{\numberline {6}Conclusion}{9}%
+\contentsline {section}{\numberline {7}Draft}{9}%

@@ -1,0 +1,71 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002020, month=000000000006, day=000000000028, hour=000000000016, min=000000000030, sec=000000000006)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000001816, lin=000000000052, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock14'
+	SolutionName='Performance'
+	SolutionID=1
+	V=762
+	$begin 'States'
+		F(VID=761, Ver=762)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+	$begin 'SolutionDataFiles'
+		MSolutionData(VID=761, Ver=762, Dir='DV761_SOL1_V762.MSolutionData/')
+	$end 'SolutionDataFiles'
+	$begin 'SolverDataFiles'
+		MSolverData(VID=761, Ver=762, File='DV761_SOL1_V762.MSolverData')
+	$end 'SolverDataFiles'
+	$begin 'ExportDataFiles'
+		MExportData(VID=761, Ver=762, Dir='DV761_SOL1_V762.MExportData/')
+	$end 'ExportDataFiles'
+	$begin 'CurvesDataFiles'
+		MCurvesData(VID=761, Ver=762, Dir='DV761_SOL1_V762.MCurvesData/')
+	$end 'CurvesDataFiles'
+$end 'SolutionBlock14'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock3'
+	'SolutionKey(SimSetup=0, Instance=\'SetupDefinition\', Solution=-1, VersionID=762)'='SolutionBlock15'
+	'SolutionKey(SimSetup=0, Instance=\'SolutionDefinition\', Solution=1, VersionID=762)'='SolutionBlock14'
+$end 'BlockMapName'
+$begin 'SolutionBlock15'
+	SimSetupID=0
+	SimSetupName='Setup1'
+	VersionID=762
+	SolveSetupID=0
+$end 'SolutionBlock15'
+$begin 'SolutionBlock3'
+	ProductName='RMxprt'
+	CircuitName='assm_18slot-28pole'
+	VersionID=762
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=776
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='', ID=761)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+$end 'SolutionBlock3'
+$begin '$index$'
+	$begin '$index$'
+		SolutionBlock3(pos=1514, lin=38, lvl=0)
+		SolutionBlock14(pos=370, lin=1, lvl=0)
+		BlockMapName(pos=1119, lin=27, lvl=0)
+		SolutionBlock15(pos=1398, lin=32, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=1816, lin=52, lvl=0)
+	$end '$index$'
+$end '$index$'

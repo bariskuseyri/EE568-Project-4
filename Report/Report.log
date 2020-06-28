@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.11.24)  28 JUN 2020 00:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.11.24)  28 JUN 2020 15:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -631,6 +631,9 @@ Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
 
 LaTeX Warning: Label `fig:EMoperations' multiply defined.
 
+
+LaTeX Warning: Label `tab:materialSelection' multiply defined.
+
 )
 \openout1 = `Report.aux'.
 
@@ -757,26 +760,66 @@ LaTeX Warning: Citation `farshadnia_advanced_2018' on page 3 undefined on input
  line 69.
 
 
-LaTeX Warning: Citation `farshadnia_advanced_2018' on page 3 undefined on input
- line 72.
-
-
 LaTeX Warning: Citation `zhu_influence_2000' on page 3 undefined on input line 
-72.
+73.
 
 
-LaTeX Warning: Citation `farshadnia_advanced_2018' on page 3 undefined on input
- line 83.
+LaTeX Warning: Citation `masmoudi_fractional_2011' on page 3 undefined on input
+ line 73.
+
+
+LaTeX Warning: Citation `zhu_influence_2014' on page 3 undefined on input line 
+73.
+
+
+LaTeX Warning: Citation `jahns_pulsating_1996' on page 3 undefined on input lin
+e 73.
+
+
+LaTeX Warning: Citation `azar_influence_2012' on page 3 undefined on input line
+ 73.
+
+
+LaTeX Warning: Citation `jahns_pulsating_1996' on page 3 undefined on input lin
+e 73.
+
+
+LaTeX Warning: Citation `jahns_pulsating_1996' on page 3 undefined on input lin
+e 73.
+
+
+LaTeX Warning: Citation `wang_cogging_2013' on page 3 undefined on input line 7
+3.
+
+
+LaTeX Warning: Citation `ahsanullah_design_2013' on page 3 undefined on input l
+ine 73.
+
+
+LaTeX Warning: Citation `jahns_pulsating_1996' on page 3 undefined on input lin
+e 73.
+
+
+LaTeX Warning: Citation `wu_design_2015' on page 3 undefined on input line 73.
+
+[3]
+
+LaTeX Warning: Citation `farshadnia_advanced_2018' on page 4 undefined on input
+ line 77.
+
+[4]
+<chiRatio.png, id=30, 853.08713pt x 170.13562pt>
+File: chiRatio.png Graphic file (type png)
+<use chiRatio.png>
+Package pdftex.def Info: chiRatio.png  used on input line 156.
+(pdftex.def)             Requested size: 473.81102pt x 94.49648pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[3] [4]
-<chiRatio.png, id=31, 853.08713pt x 170.13562pt>
-File: chiRatio.png Graphic file (type png)
-<use chiRatio.png>
-Package pdftex.def Info: chiRatio.png  used on input line 162.
-(pdftex.def)             Requested size: 473.81102pt x 94.49648pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 \g__nm_max_cell_width_dim=\dimen282
 \c@iRow=\count301
 \c@jCol=\count302
@@ -803,117 +846,125 @@ Package pdftex.def Info: chiRatio.png  used on input line 162.
 \l__nm_final_i_int=\count310
 \l__nm_final_j_int=\count311
 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Citation `wu_optimal_2010' on page 5 undefined on input line 222
+LaTeX Warning: Citation `wu_optimal_2010' on page 5 undefined on input line 216
 .
 
-[5 <./chiRatio.png>] [6]
+[5] [6 <./chiRatio.png>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [7]
 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 LaTeX Warning: Citation `alberti_theory_2011' on page 8 undefined on input line
- 395.
+ 418.
 
 
 LaTeX Warning: Citation `babitsky_investigation_2019' on page 8 undefined on in
-put line 396.
+put line 419.
 
 
 LaTeX Warning: Citation `boglietti_electrical_2014' on page 8 undefined on inpu
-t line 397.
+t line 420.
 
 
 LaTeX Warning: Citation `carraro_design_2018' on page 8 undefined on input line
- 398.
+ 421.
 
 
 LaTeX Warning: Citation `choi_reduction_2016' on page 8 undefined on input line
- 399.
+ 422.
 
 
 LaTeX Warning: Citation `dajaku_advanced_2019' on page 8 undefined on input lin
-e 400.
+e 423.
 
 
 LaTeX Warning: Citation `el-refaie_advanced_2014' on page 8 undefined on input 
-line 401.
+line 424.
 
 
 LaTeX Warning: Citation `el-refaie_fractional-slot_2010' on page 8 undefined on
- input line 402.
+ input line 425.
 
 
 LaTeX Warning: Citation `el-refaie_fractional-slot_2013' on page 8 undefined on
- input line 403.
+ input line 426.
 
 
 LaTeX Warning: Citation `farshadnia_advanced_2018' on page 8 undefined on input
- line 404.
+ line 427.
 
 
 LaTeX Warning: Citation `farshadnia_detailed_2016' on page 8 undefined on input
- line 405.
+ line 428.
 
 
 LaTeX Warning: Citation `geun-ho_lee_torque_2008' on page 8 undefined on input 
-line 406.
+line 429.
 
 
 LaTeX Warning: Citation `guemes_comparative_2010' on page 8 undefined on input 
-line 407.
+line 430.
 
 
-LaTeX Warning: Citation `han_torque_2007' on page 8 undefined on input line 408
+LaTeX Warning: Citation `han_torque_2007' on page 8 undefined on input line 431
 .
 
 
 LaTeX Warning: Citation `he_evaluation_2019' on page 8 undefined on input line 
-409.
+432.
 
 
 LaTeX Warning: Citation `howell_getting_2018' on page 8 undefined on input line
- 410.
+ 433.
 
 
 LaTeX Warning: Citation `jussila_guidelines_2007' on page 8 undefined on input 
-line 411.
+line 434.
 
 
 LaTeX Warning: Citation `masmoudi_design_2019' on page 8 undefined on input lin
-e 412.
+e 435.
 
 
 LaTeX Warning: Citation `reddy_generalized_2014' on page 8 undefined on input l
-ine 413.
+ine 436.
 
 
 LaTeX Warning: Citation `seok-hee_han_torque_2010' on page 8 undefined on input
- line 414.
+ line 437.
 
 
 LaTeX Warning: Citation `yokoi_general_2016' on page 8 undefined on input line 
-415.
+438.
 
 
 LaTeX Warning: Citation `zhu_analysis_2018' on page 8 undefined on input line 4
-16.
+39.
 
 
-LaTeX Warning: Citation `zhu_novel_2019' on page 8 undefined on input line 417.
+LaTeX Warning: Citation `zhu_novel_2019' on page 8 undefined on input line 440.
 
 
 
 LaTeX Warning: Citation `zuopeng_design_2017' on page 8 undefined on input line
- 418.
+ 441.
 
-[8]
+[8] [9]
 No file Report.bbl.
-[9] (./Report.aux)
+[10] [11] (./Report.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -924,11 +975,11 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  23876 strings out of 492164
  479224 string characters out of 6129087
- 512985 words of memory out of 5000000
+ 516990 words of memory out of 5000000
  27965 multiletter control sequences out of 15000+600000
  538407 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,19n,67p,979b,916s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,19n,67p,3165b,916s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
 live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2019
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2019/texmf-di
@@ -941,10 +992,10 @@ exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2019
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2019/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2019/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Report.pdf (10 pages, 187360 bytes).
+Output written on Report.pdf (12 pages, 193881 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
- 66 compressed objects within 1 object stream
+ 99 PDF objects out of 1000 (max. 8388607)
+ 70 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 

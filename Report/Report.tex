@@ -69,16 +69,10 @@
 	Torque generated as a result of the stator field aligning the rotor as the reluctance of the magnetic circuit is minimum. Reluctance varies according to the rotor position, while an IPM machine is magnetically salient. This saliency forms as the PM permeability is approximately equals to that of air; thus, contributing to the air-gap length. Similar to alignment torque, $p/2$th harmonic of self and mutual inductance, corresponding to fundamental component, contributes to the average alignment torque. Remaining harmonic components provides for the reluctance torque ripple \cite{farshadnia_advanced_2018}.
 	
 		
-	Cogging torque is one of the torque elements contributing to the torque ripple in the PMSM. Several design factors lead to variation on cogging torque. Here, one such aspect is investigated, that is the amount of stator teeth aligned with poles in the rotor at a given instance. For the corresponding magnetic circuit, permeance is highest when a rotor pole and a stator tooth are aligned. This results with a force that tries to keep the pole steady; hence, emerging a torque counter to the rotor rotation. This is called 'cogging torque'. More of such alignments result with more cogging torque. This description leads to the statement that the value of least common multiple (LCM) of the number of slots $Q$ and number of poles $2p$ is an indicator for the intesity of the cogging torque in a PMSM. LCM of $Q$ and $2p$ is inversely proportional to the cogging torque amplitude \cite{farshadnia_advanced_2018} \cite{zhu_influence_2000}.
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	Cogging torque is one of the torque elements contributing to the torque ripple in the PMSM. The amount of stator teeth aligned with poles in the rotor at a given instance. For the corresponding magnetic circuit, permeance is highest when a rotor pole and a stator tooth are aligned. The system is stable at this point, and the corresponding cogging torque is zero. This results with a force that tries to keep the pole steady; hence, emerging a torque counter to the rotor rotation. This is called 'cogging torque'. More of such alignments result with more cogging torque. 
+	The most acknowledged indicator for the cogging torque in a PMSM is the value of least common multiple (LCM) between the number of slots $Q$ and number of poles $2p$. Zhu and Howe (2000) introduce a factor $C_T=\frac{2pQ}{LCM(Q,2p)}$, to assess the cogging torque in a given PMSM. They profess that this factor $C_T$ is directly proportional to the amplitude of the cogging torque \cite{zhu_influence_2000}. Zhu (2011) claims the same as Zhu and Howe (2000), stating that higher LCM and lower GCM between number of slots $Q$ and number of poles $2p$ lead to lower cogging torque. In addition to this, it is argued that machines with a slot/pole combination of $2p=Q\pm2$ exhibit very low cogging torque, while machines with a slot/pole combination of $2p=Q\pm1$ exhibit the lowest cogging torque, with a downside of having unbalanced magnetic force \cite{masmoudi_fractional_2011}. Zhu, Wu and Jamil (2014) inspect machines with slot/pole combinations of $2p=Q\pm2$, $2p=Q\pm1$, $Q/2p=12/8$ and one integer-slot machine $Q/2p=12/4$, assessing the machines in terms of cogging torque, leading to a similar result \cite{zhu_influence_2014}. Jahns and Soong (1996) examine cogging torque in different machines and provide various methods to reduce the cogging torque \cite{jahns_pulsating_1996}. They state that skewing is one of the most popular and most effective way to reduce the cogging torque, if not, eliminate completely. Azar, Zhu and Ombach (2012) utilize skewing method in their work, to reduce the cogging torque. They report that skewing the PMSM by one actual cogging torque period can eliminate the cogging torque and reduce the torque ripple significantly \cite{azar_influence_2012}. Jahns and Soong also mention about winding distribution, increasing number of phases and air-gap winding and their effect on reducing cogging torque when carefully employed \cite{jahns_pulsating_1996}. Additionally, they report the effect of magnet arc width and positioning and its effect on cogging torque \cite{jahns_pulsating_1996}. Work of Ahsanullah, Dutta and Rahman (2013) and Wang, Wang and Jung (2013) show how magnet arc width may reduce the resulting cogging torque \cite{wang_cogging_2013} \cite{ahsanullah_design_2013}. Jahns and Soong (1996) also report the utilization of dummy slots and dummy teeth and how it may result with the reduction of cogging torque \cite{jahns_pulsating_1996}. Zhu and Howe (2000) work on this method, naming not as dummy, but auxiliary, and approve this method for reducing the cogging torque. Bianchi and Bolognani (2002) reports a similar work to Jahns and Soong (1996), reporting similar methods and similar results, with an additional method of PM shifting. Wu and Zhu (2015) reports the effect of tooth tip width on cogging torque and torque ripple in FSCW SPM, and the trade-off between the two torque components in such machine \cite{wu_design_2015}. Finally, Farshadnia (2018) reports similar cogging torque characteristics as Zhu and Howe (2000), reporting in his work about how higher LCM between number of slots $Q$ and number of poles $2p$ indicates lower cogging torque.
+
+
 	
 	FSCW stator topologies are characterized by their slots per pole per phase ratio, denoted $S_{pp}$\cite{farshadnia_advanced_2018}. 
 	
@@ -339,14 +333,14 @@
 	\begin{table}[h]
 		\begin{center}
 			\begin{tabular}{c|c|c|c|c|c}
-				$Q=18$ & $p=16$ & $p=20$ & $p=22$ & $p=26$ & $p=28$ \\
-				\hline
 				Magnetic Loading $\hat{B}[T]$ & \multicolumn{5}{c}{0.95} \\
 				Electric Loading $\hat{A}[A/m]$ & \multicolumn{5}{c}{50000} \\
 				Tangential Stress $\sigma_{Ftan}[Pa]$ & \multicolumn{5}{c}{33876} \\
 				Rotor Volume $V_r [m^2]$ & \multicolumn{5}{c}{0.002473447965892} \\
 				Air-gap Clearance $\delta_g [mm]$ & \multicolumn{5}{c}{0.624} \\
 				\hline\hline
+				$Q=18$ & $p=16$ & $p=20$ & $p=22$ & $p=26$ & $p=28$ \\
+				\hline
 				Linear Current Density $J [A/mm^2]$ & 3.27 & 3.15 & 3.10 & 3.02 & 2.98 \\
 				Specific Machine Constant & 313264 & 313264 & 299009 & 243650 & 204533 \\
 				Axial Length $l [mm]$ & 49.6 & 46.1 & 44.6 & 42.2 & 41.2 \\
@@ -360,7 +354,7 @@
 				Tooth height $h_{teeth} [mm]$ & \multirow{2}{4em}{50.5} & \multirow{2}{4em}{52.5} & \multirow{2}{4em}{53.3} & \multirow{2}{4em}{54.8} & \multirow{2}{4em}{55.5} \\
 				Slot heigth $h_{teeth} [mm]$ &  &  &  &  & \\
 				Slot outer width $\tau_{slot,outer} [mm]$ & 39.9 & 41.4 & 42.0 & 43.2 & 43.8 \\
-				\hline
+				\hline\hline
 				$Q=24$ & $p=16$ & $p=20$ & $p=22$ & $p=26$ & $p=28$ \\
 				\hline
 				Linear Current Density $J [A/mm^2]$ & 3.96 & 3.81 & 3.75 & 3.65 & 2.60 \\
@@ -389,6 +383,33 @@
 				cable size
 	
 	\section{FEA Modelling}
+	
+	\begin{table}[h]
+		\begin{center}
+			\begin{tabular}{c|c|c|c|c|c}
+				$Q=18$ & $p=16$ & $p=20$ & $p=22$ & $p=26$ & $p=28$ \\
+				\hline
+				Peak air-gap flux density $B_g [T]$ & 0.95436 & 0.94957 & 0.95353 & 0.94894 & 0.94773 \\
+				Cogging Torque $T_{cogg} [Nm]$ & 2.53194 & 0.55637 & 2.42117 & 0.90783 & 0.85279\\
+				Magnet Length $l_m [mm]$ & 9 & 11 & 13 & 16 & 20 \\
+				Cogging Torque Factor $C_T=\frac{2pQ}{LCM(Q,2p)}$ & 2 & 2 & 2 & 2 & 2 \\
+				\hline\hline
+				$Q=24$ & $p=16$ & $p=20$ & $p=22$ & $p=26$ & $p=28$ \\
+				\hline
+				Peak air-gap flux density $B_g [T]$ & 0.95240 & 0.95191 & 0.95023 & 0.94801 & 0.94818 \\
+				Cogging Torque $T_{cogg} [Nm]$ & 17.4812 & 3.7297 & 0.68872 & 0.10482 & 4.77034 \\
+				Magnet Length $l_m [mm]$ & 15 & 12 & 12 & 15 & 18 \\
+				Cogging Torque Factor $C_T=\frac{2pQ}{LCM(Q,2p)}$ & 8 & 4 & 2 & 2 & 4 \\
+			\end{tabular}
+		\end{center}
+		\caption{Material selection}
+		\label{tab:materialSelection}
+	\end{table}
+	
+	
+	
+	
+	
 	\section{Comparison \& Discussion}
 	\section{Conclusion}
 

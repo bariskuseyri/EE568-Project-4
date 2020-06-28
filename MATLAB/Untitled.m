@@ -27,6 +27,8 @@ K_p = 0.5;              % filling factor
 P_em = 46979;           % Power [W]
 w_rpm = 2700;           % machine speed [rpm]
 w_rad = w_rpm*(2*pi/60);% machine speed [rad/s]
+f_mech = w_rad/(2*pi);  % mechanical frequency [1/s]
+f_elec = f_mech*pp;     % electrical frequency [1/s]
 T_em = P_em/w_rad;      % electromagnetic torque [Nm]
 
 B_load = 0.95;          % Peak magnetic Loading [T]
@@ -163,3 +165,34 @@ magnet_width = 2.*((D_r./2)-0.004).*sin(magnet_arc);
 
 
 l_m=(B_load*l_g*u_r)/(B_r-B_load);
+
+%% Cogging Torque
+
+T_cogg = [2.53194 0.55637 2.42117 0.90783 0.85279; 17.4812 3.7297 0.68872 0.10482 4.77034];
+B_gap_real = [0.95436 0.94957 0.95353 0.94894 0.94773; 0.95240 0.95191 0.95023 0.94801 0.94818];
+T_cogg_norm = (T_cogg./B_gap_real).*0.95;
+
+figure(1)
+g1 = bar(p(1,:),T_cogg_norm);
+colormap(summer(n));
+ax = gca;
+ax.XGrid = 'off';
+ax.YGrid = 'on';
+
+% ,'FaceColor','w','EdgeColor','k'
+xtips1 = g1(1).XEndPoints;
+ytips1 = g1(1).YEndPoints;
+labels1 = string(g1(1).YData);
+text(xtips1,ytips1,labels1,'HorizontalAlignment','center',...
+    'VerticalAlignment','bottom')
+xtips2 = g1(2).XEndPoints;
+ytips2 = g1(2).YEndPoints;
+labels2 = string(g1(2).YData);
+text(xtips2,ytips2,labels2,'HorizontalAlignment','center',...
+    'VerticalAlignment','bottom')
+
+ylabel('{\itCogging Torque: T_{cogg} [Nm]}')
+xlabel('{\itnumber of poles: 2p}')
+l = cell(1,2);
+l{1}='L'; l{2}='B'; 
+legend(g1,l);
