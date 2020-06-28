@@ -5,13 +5,13 @@ $begin '$base_index$'
     version=000000000000
   $end 'properties'
   $begin '$base_index$'
-    $index$(pos=000000001313, lin=000000000039, lvl=000000000000)
+    $index$(pos=000000001314, lin=000000000039, lvl=000000000000)
   $end '$base_index$'
 $end '$base_index$'
-$begin 'SolutionBlock93'
+$begin 'SolutionBlock10'
 	SolutionName='Performance'
 	SolutionID=1
-	V=749
+	V=710
 	$begin 'States'
 	$end 'States'
 	$begin 'Definition'
@@ -20,39 +20,39 @@ $begin 'SolutionBlock93'
 		SolutionType=1
 		CenterFreq=0
 	$end 'Definition'
-$end 'SolutionBlock93'
+$end 'SolutionBlock10'
 $begin 'BlockMapName'
-	FileHeader='SolutionBlock4'
-	'SolutionKey(SimSetup=0, Instance=\'SetupDefinition\', Solution=-1, VersionID=749)'='SolutionBlock94'
-	'SolutionKey(SimSetup=0, Instance=\'SolutionDefinition\', Solution=1, VersionID=749)'='SolutionBlock93'
+	FileHeader='SolutionBlock3'
+	'SolutionKey(SimSetup=0, Instance=\'SetupDefinition\', Solution=-1, VersionID=710)'='SolutionBlock11'
+	'SolutionKey(SimSetup=0, Instance=\'SolutionDefinition\', Solution=1, VersionID=710)'='SolutionBlock10'
 $end 'BlockMapName'
-$begin 'SolutionBlock94'
+$begin 'SolutionBlock11'
 	SimSetupID=0
 	SimSetupName='Setup1'
-	VersionID=749
+	VersionID=710
 	SolveSetupID=0
-$end 'SolutionBlock94'
-$begin 'SolutionBlock4'
+$end 'SolutionBlock11'
+$begin 'SolutionBlock3'
 	ProductName='RMxprt'
-	CircuitName='assm_24slot-22pole'
-	VersionID=749
+	CircuitName='assm_18slot-20pole'
+	VersionID=710
 	PostProcess=false
 	LossLess=true
-	NextUniqueID=776
+	NextUniqueID=737
 	MoveBackwards=false
 	$begin 'VariationIDs'
-		Map(V='', ID=78)
+		Map(V='', ID=693)
 	$end 'VariationIDs'
 	$begin 'LinkedDataList'
 	$end 'LinkedDataList'
-$end 'SolutionBlock4'
+$end 'SolutionBlock3'
 $begin '$index$'
 	$begin '$index$'
-		SolutionBlock4(pos=1012, lin=25, lvl=0)
-		SolutionBlock93(pos=370, lin=1, lvl=0)
+		SolutionBlock3(pos=1012, lin=25, lvl=0)
+		SolutionBlock10(pos=370, lin=1, lvl=0)
 		BlockMapName(pos=617, lin=14, lvl=0)
-		SolutionBlock94(pos=896, lin=19, lvl=0)
+		SolutionBlock11(pos=896, lin=19, lvl=0)
 		$base_index$(pos=0, lin=1, lvl=0)
-		$index$(pos=1313, lin=39, lvl=0)
+		$index$(pos=1314, lin=39, lvl=0)
 	$end '$index$'
 $end '$index$'

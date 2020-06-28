@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.11.24)  26 JUN 2020 20:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.11.24)  28 JUN 2020 00:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -621,6 +621,12 @@ Package: IEEEtrantools 2015/08/26 V1.5 by Michael Shell
 \@IEEEeqncolcnt=\count292
 \@IEEEsubeqnnumrollback=\count293
 \IEEEPARstartletwidth=\dimen278
+) (c:/texlive/2019/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+\multirow@colwidth=\skip55
+\multirow@cntb=\count294
+\multirow@dima=\skip56
+\bigstrutjot=\dimen279
 ) (./Report.aux
 
 LaTeX Warning: Label `fig:EMoperations' multiply defined.
@@ -628,31 +634,31 @@ LaTeX Warning: Label `fig:EMoperations' multiply defined.
 )
 \openout1 = `Report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
  ABD: EveryShipout initializing macros
 (c:/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count294
-\scratchdimen=\dimen279
+\scratchcounter=\count295
+\scratchdimen=\dimen280
 \scratchbox=\box61
-\nofMPsegments=\count295
-\nofMParguments=\count296
+\nofMPsegments=\count296
+\nofMParguments=\count297
 \everyMPshowfont=\toks34
-\MPscratchCnt=\count297
-\MPscratchDim=\dimen280
-\MPnumerator=\count298
-\makeMPintoPDFobject=\count299
+\MPscratchCnt=\count298
+\MPscratchDim=\dimen281
+\MPnumerator=\count299
+\makeMPintoPDFobject=\count300
 \everyMPtoPDFconversion=\toks35
 ) (c:/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -715,209 +721,199 @@ e
  [1]
 
 LaTeX Warning: Citation `farshadnia_advanced_2018' on page 2 undefined on input
- line 19.
+ line 23.
 
 
 LaTeX Warning: Citation `farshadnia_advanced_2018' on page 2 undefined on input
- line 40.
+ line 44.
 
 
-LaTeX Warning: Citation `bianchi_use_2006' on page 2 undefined on input line 43
+LaTeX Warning: Citation `bianchi_use_2006' on page 2 undefined on input line 47
 .
 
 
 LaTeX Warning: Citation `el-refaie_fractional-slot_2010' on page 2 undefined on
- input line 43.
+ input line 47.
 
 
 LaTeX Warning: Citation `ishak_comparison_2006' on page 2 undefined on input li
-ne 43.
+ne 47.
 
 
-Overfull \hbox (2.29332pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/n/10.95 higher self-inductances and lower mu-tual in-duc-tances com-
-pared to its double-
- []
-
-
-LaTeX Warning: Citation `bianchi_use_2006' on page 2 undefined on input line 46
+LaTeX Warning: Citation `bianchi_use_2006' on page 2 undefined on input line 50
 .
 
+
+LaTeX Warning: Citation `farshadnia_advanced_2018' on page 2 undefined on input
+ line 58.
+
 [2]
-
-LaTeX Warning: Citation `farshadnia_advanced_2018' on page 3 undefined on input
- line 54.
-
-
-LaTeX Warning: Citation `farshadnia_advanced_2018' on page 3 undefined on input
- line 64.
-
-
-LaTeX Warning: Citation `farshadnia_advanced_2018' on page 3 undefined on input
- line 65.
-
 
 LaTeX Warning: Citation `farshadnia_advanced_2018' on page 3 undefined on input
  line 68.
 
 
-LaTeX Warning: Citation `zhu_influence_2000' on page 3 undefined on input line 
-68.
+LaTeX Warning: Citation `farshadnia_advanced_2018' on page 3 undefined on input
+ line 69.
 
 
 LaTeX Warning: Citation `farshadnia_advanced_2018' on page 3 undefined on input
- line 79.
+ line 72.
+
+
+LaTeX Warning: Citation `zhu_influence_2000' on page 3 undefined on input line 
+72.
+
+
+LaTeX Warning: Citation `farshadnia_advanced_2018' on page 3 undefined on input
+ line 83.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 [3] [4]
-<chiRatio.png, id=30, 853.08713pt x 170.13562pt>
+<chiRatio.png, id=31, 853.08713pt x 170.13562pt>
 File: chiRatio.png Graphic file (type png)
 <use chiRatio.png>
-Package pdftex.def Info: chiRatio.png  used on input line 158.
-(pdftex.def)             Requested size: 360.0pt x 71.79654pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-\g__nm_max_cell_width_dim=\dimen281
-\c@iRow=\count300
-\c@jCol=\count301
-\g__nm_row_total_int=\count302
-\g__nm_col_total_int=\count303
-\g__nm_last_vdotted_col_int=\count304
-\g__nm_left_delim_dim=\dimen282
-\g__nm_right_delim_dim=\dimen283
+Package pdftex.def Info: chiRatio.png  used on input line 162.
+(pdftex.def)             Requested size: 473.81102pt x 94.49648pt.
+\g__nm_max_cell_width_dim=\dimen282
+\c@iRow=\count301
+\c@jCol=\count302
+\g__nm_row_total_int=\count303
+\g__nm_col_total_int=\count304
+\g__nm_last_vdotted_col_int=\count305
+\g__nm_left_delim_dim=\dimen283
+\g__nm_right_delim_dim=\dimen284
 \l__nm_the_array_box=\box62
-\g__nm_dp_row_zero_dim=\dimen284
-\g__nm_ht_row_zero_dim=\dimen285
-\g__nm_ht_row_one_dim=\dimen286
-\g__nm_dp_ante_last_row_dim=\dimen287
-\g__nm_ht_last_row_dim=\dimen288
-\g__nm_dp_last_row_dim=\dimen289
-\l__nm_ddots_int=\count305
-\l__nm_iddots_int=\count306
-\l__nm_delta_x_one_dim=\dimen290
-\l__nm_delta_y_one_dim=\dimen291
-\l__nm_delta_x_two_dim=\dimen292
-\l__nm_delta_y_two_dim=\dimen293
-\l__nm_initial_i_int=\count307
-\l__nm_initial_j_int=\count308
-\l__nm_final_i_int=\count309
-\l__nm_final_j_int=\count310
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[5 <./chiRatio.png>]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
+\g__nm_dp_row_zero_dim=\dimen285
+\g__nm_ht_row_zero_dim=\dimen286
+\g__nm_ht_row_one_dim=\dimen287
+\g__nm_dp_ante_last_row_dim=\dimen288
+\g__nm_ht_last_row_dim=\dimen289
+\g__nm_dp_last_row_dim=\dimen290
+\l__nm_ddots_int=\count306
+\l__nm_iddots_int=\count307
+\l__nm_delta_x_one_dim=\dimen291
+\l__nm_delta_y_one_dim=\dimen292
+\l__nm_delta_x_two_dim=\dimen293
+\l__nm_delta_y_two_dim=\dimen294
+\l__nm_initial_i_int=\count308
+\l__nm_initial_j_int=\count309
+\l__nm_final_i_int=\count310
+\l__nm_final_j_int=\count311
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
+LaTeX Warning: Citation `wu_optimal_2010' on page 5 undefined on input line 222
+.
+
+[5 <./chiRatio.png>] [6]
+
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+[7]
 
-LaTeX Warning: Citation `alberti_theory_2011' on page 6 undefined on input line
- 309.
-
-
-LaTeX Warning: Citation `babitsky_investigation_2019' on page 6 undefined on in
-put line 310.
+LaTeX Warning: Citation `alberti_theory_2011' on page 8 undefined on input line
+ 395.
 
 
-LaTeX Warning: Citation `boglietti_electrical_2014' on page 6 undefined on inpu
-t line 311.
+LaTeX Warning: Citation `babitsky_investigation_2019' on page 8 undefined on in
+put line 396.
 
 
-LaTeX Warning: Citation `carraro_design_2018' on page 6 undefined on input line
- 312.
+LaTeX Warning: Citation `boglietti_electrical_2014' on page 8 undefined on inpu
+t line 397.
 
 
-LaTeX Warning: Citation `choi_reduction_2016' on page 6 undefined on input line
- 313.
+LaTeX Warning: Citation `carraro_design_2018' on page 8 undefined on input line
+ 398.
 
 
-LaTeX Warning: Citation `dajaku_advanced_2019' on page 6 undefined on input lin
-e 314.
+LaTeX Warning: Citation `choi_reduction_2016' on page 8 undefined on input line
+ 399.
 
 
-LaTeX Warning: Citation `el-refaie_advanced_2014' on page 6 undefined on input 
-line 315.
+LaTeX Warning: Citation `dajaku_advanced_2019' on page 8 undefined on input lin
+e 400.
 
 
-LaTeX Warning: Citation `el-refaie_fractional-slot_2010' on page 6 undefined on
- input line 316.
+LaTeX Warning: Citation `el-refaie_advanced_2014' on page 8 undefined on input 
+line 401.
 
 
-LaTeX Warning: Citation `el-refaie_fractional-slot_2013' on page 6 undefined on
- input line 317.
+LaTeX Warning: Citation `el-refaie_fractional-slot_2010' on page 8 undefined on
+ input line 402.
 
 
-LaTeX Warning: Citation `farshadnia_advanced_2018' on page 6 undefined on input
- line 318.
+LaTeX Warning: Citation `el-refaie_fractional-slot_2013' on page 8 undefined on
+ input line 403.
 
 
-LaTeX Warning: Citation `farshadnia_detailed_2016' on page 6 undefined on input
- line 319.
+LaTeX Warning: Citation `farshadnia_advanced_2018' on page 8 undefined on input
+ line 404.
 
 
-LaTeX Warning: Citation `geun-ho_lee_torque_2008' on page 6 undefined on input 
-line 320.
+LaTeX Warning: Citation `farshadnia_detailed_2016' on page 8 undefined on input
+ line 405.
 
 
-LaTeX Warning: Citation `guemes_comparative_2010' on page 6 undefined on input 
-line 321.
+LaTeX Warning: Citation `geun-ho_lee_torque_2008' on page 8 undefined on input 
+line 406.
 
 
-LaTeX Warning: Citation `han_torque_2007' on page 6 undefined on input line 322
+LaTeX Warning: Citation `guemes_comparative_2010' on page 8 undefined on input 
+line 407.
+
+
+LaTeX Warning: Citation `han_torque_2007' on page 8 undefined on input line 408
 .
 
 
-LaTeX Warning: Citation `he_evaluation_2019' on page 6 undefined on input line 
-323.
+LaTeX Warning: Citation `he_evaluation_2019' on page 8 undefined on input line 
+409.
 
 
-LaTeX Warning: Citation `howell_getting_2018' on page 6 undefined on input line
- 324.
+LaTeX Warning: Citation `howell_getting_2018' on page 8 undefined on input line
+ 410.
 
 
-LaTeX Warning: Citation `jussila_guidelines_2007' on page 6 undefined on input 
-line 325.
+LaTeX Warning: Citation `jussila_guidelines_2007' on page 8 undefined on input 
+line 411.
 
 
-LaTeX Warning: Citation `masmoudi_design_2019' on page 6 undefined on input lin
-e 326.
+LaTeX Warning: Citation `masmoudi_design_2019' on page 8 undefined on input lin
+e 412.
 
 
-LaTeX Warning: Citation `reddy_generalized_2014' on page 6 undefined on input l
-ine 327.
+LaTeX Warning: Citation `reddy_generalized_2014' on page 8 undefined on input l
+ine 413.
 
 
-LaTeX Warning: Citation `seok-hee_han_torque_2010' on page 6 undefined on input
- line 328.
+LaTeX Warning: Citation `seok-hee_han_torque_2010' on page 8 undefined on input
+ line 414.
 
 
-LaTeX Warning: Citation `yokoi_general_2016' on page 6 undefined on input line 
-329.
+LaTeX Warning: Citation `yokoi_general_2016' on page 8 undefined on input line 
+415.
 
 
-LaTeX Warning: Citation `zhu_analysis_2018' on page 6 undefined on input line 3
-30.
+LaTeX Warning: Citation `zhu_analysis_2018' on page 8 undefined on input line 4
+16.
 
 
-LaTeX Warning: Citation `zhu_novel_2019' on page 6 undefined on input line 331.
+LaTeX Warning: Citation `zhu_novel_2019' on page 8 undefined on input line 417.
 
 
 
-LaTeX Warning: Citation `zuopeng_design_2017' on page 6 undefined on input line
- 332.
+LaTeX Warning: Citation `zuopeng_design_2017' on page 8 undefined on input line
+ 418.
 
-[6] [7]
+[8]
 No file Report.bbl.
-[8] (./Report.aux)
+[9] (./Report.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -926,28 +922,29 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 23820 strings out of 492164
- 478367 string characters out of 6129087
- 508363 words of memory out of 5000000
- 27913 multiletter control sequences out of 15000+600000
+ 23876 strings out of 492164
+ 479224 string characters out of 6129087
+ 512985 words of memory out of 5000000
+ 27965 multiletter control sequences out of 15000+600000
  538407 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,19n,67p,979b,916s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
 live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2019
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2019/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2019/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.
-pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/tex
-live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2019
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2019/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Report.pdf (9 pages, 170805 bytes).
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2019/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2019/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2019/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12
+.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/t
+exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2019
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2019/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2019/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy8.pfb>
+Output written on Report.pdf (10 pages, 187360 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
- 61 compressed objects within 1 object stream
+ 93 PDF objects out of 1000 (max. 8388607)
+ 66 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -3,6 +3,10 @@
 \usepackage{nicematrix}
 \usepackage{graphicx}
 \usepackage{IEEEtrantools}
+\usepackage{multirow}
+
+\addtolength{\hoffset}{-2cm}
+\addtolength{\textwidth}{4cm}
 
 \begin{document}
 	\title{EE568 Project 4}
@@ -144,7 +148,7 @@
 
 	\paragraph{Air-gap Clearance} in PMSMs can be calculated in a similar manner with asynchronous machines
 	\begin{IEEEeqnarray*}{rCl}
-		\delta &=& \frac{0.18+0.006P^{0.4}}{1000} [m]=\frac{0.18+0.006\cdot46979^{0.4}}{1000} [m] \\
+		\delta_g &=& \frac{0.18+0.006P^{0.4}}{1000} [m]=\frac{0.18+0.006\cdot46979^{0.4}}{1000} [m] \\
 		&=& 6.235195394489506e-04[m] \\
 		&\approx& 0.624 [mm]
 	\end{IEEEeqnarray*}
@@ -214,10 +218,45 @@
 	
 	
 	\subsection{Machine Parameters}
+		
+	\paragraph{Split Ratio $\lambda$} is the ratio of rotor outer diameter to stator outer diameter $s=D_{ro}/D_{so}$. Wu et al. derives the optimal split ratio for IPM machines with non-overlapping windings using torque density equation \cite{wu_optimal_2010}. First, a flux density ratio $\gamma$ is defined as the ratio of air-gap flux density to maximum flux density the stator lamination can support before magnetically saturating. Split ratio $\lambda$, flux density ratio $\gamma$ and another intermediary ratio $k$ is defined in \ref{eq:Wulambdagammak}. The expression derived for the optimal split ratio is
 	
-	\paragraph{teeth/slot dimensions}
+	\begin{IEEEeqnarray*}{rCl}
+		B_g=\frac{3\sqrt{3}}{2\pi}B_{gmax}
+	\end{IEEEeqnarray*}
+	\begin{align}
+		\lambda&=\frac{D_{ro}}{D_so} & \gamma&=\frac{B_g}{B_{max}} & k&=\frac{p}{Q}
+		\label{eq:Wulambdagammak}
+	\end{align}
+	where, $D_{ro}$ is rotor outer diameter, $D_{so}$ is stator outer diameter, $B_g$ is the average airgap flux density, $p$ is the number of pole-pairs and $Q$ is the number of slots. Then, the optimal split ratio expression is derived as
+	\begin{IEEEeqnarray*}{rCl}
+		\lambda=\frac{-b_1-\sqrt{b^2_1-4a_1}}{2a_1}
+	\end{IEEEeqnarray*}
+	\begin{align*}
+		a_1&=2\big[\frac{k\pi}{p}(\frac{k\pi}{p}+2)\gamma^2+2\gamma-1\big] & b_1&=-3(\frac{k\pi}{p}+1)\gamma
+	\end{align*}
+		
+	\paragraph{teeth/slot opening} this paper utilizes parallel teeth topology with a slot opening to tooth width ratio of 50:50. This means that at the inner side of the stator, the section on the stator retained for one slot and one tooth is divided equally between those two. Therefore, the tooth width is
+	\begin{equation}
+		\tau_{tooth,i}=\tau_{tooth,o}=\frac{\pi D_{si}}{2Q}=\tau_{tooth}=\tau_{slot,inner}
+	\end{equation}
+	where, $D_{si}$ is the stator inner diameter.
 	
-	\paragraph{back-core thickness}
+	\paragraph{back-core thickness} are set to be equal to the tooth width of the EMs. In single-layer FSCW topologies, phases are magnetically decoupled, meaning that the flux runs through coupled adjacent poles. Therefore, the flux travels through one tooth continues its path through the back iron to the adjacent tooth and the corresponding pole, without interacting with other flux paths at the back iron. Therefore, back-iron thickness doesn't have to be higher than the tooth thickness. 
+	\begin{equation}
+		h_{back-iron}=\tau_{tooth}
+	\end{equation}
+
+	\paragraph{teeth/slot height} can be calculated by
+	\begin{equation}
+		h_{tooth}=h_{slot}=\frac{D_{so}}{2}-h_{back-iron}-\frac{D_{ro}}{2}-\delta_g
+	\end{equation}
+	
+	\paragraph{slot outer length} can be calculated by
+	\begin{equation}
+		\tau_{slot,outer}=\frac{\pi (D_{so}-2h_{back-iron})}{Q}-\tau_{tooth}
+	\end{equation}
+	
 		\begin{table}[h]
 		\begin{center}
 			\begin{tabular}{c|c}
@@ -232,7 +271,7 @@
 		\label{tab:machineParameters}
 	\end{table}
 	
-	
+	\paragraph{slot tip width}
 	
 	
 	
@@ -296,9 +335,58 @@
 	
 	
 	
+	\subsection{Overall}
+	\begin{table}[h]
+		\begin{center}
+			\begin{tabular}{c|c|c|c|c|c}
+				$Q=18$ & $p=16$ & $p=20$ & $p=22$ & $p=26$ & $p=28$ \\
+				\hline
+				Magnetic Loading $\hat{B}[T]$ & \multicolumn{5}{c}{0.95} \\
+				Electric Loading $\hat{A}[A/m]$ & \multicolumn{5}{c}{50000} \\
+				Tangential Stress $\sigma_{Ftan}[Pa]$ & \multicolumn{5}{c}{33876} \\
+				Rotor Volume $V_r [m^2]$ & \multicolumn{5}{c}{0.002473447965892} \\
+				Air-gap Clearance $\delta_g [mm]$ & \multicolumn{5}{c}{0.624} \\
+				\hline\hline
+				Linear Current Density $J [A/mm^2]$ & 3.27 & 3.15 & 3.10 & 3.02 & 2.98 \\
+				Specific Machine Constant & 313264 & 313264 & 299009 & 243650 & 204533 \\
+				Axial Length $l [mm]$ & 49.6 & 46.1 & 44.6 & 42.2 & 41.2 \\
+				Winding Factor $k_w$ & 0.945 & 0.945 & 0.902 & 0.735 & 0.6170 \\
+				Rotor outer diameter $D_{ro} [mm]$ & 252.2 & 261.7 & 265.9 & 273.4 & 276.8 \\
+				Stator inner diameter $D_{si} [mm]$ & 253.4 & 263.0 & 267.2 & 274.7 & 278.1 \\
+				Stator outer diameter $D_{so} [mm]$ & 398.5 & 413.6 & 420.2 & 432.1 & 437.4 \\
+				Tooth width $\tau_{teeth} [mm]$ & \multirow{3}{4em}{22.0} & \multirow{3}{4em}{22.8} & \multirow{3}{4em}{23.2} & \multirow{3}{4em}{23.9} & \multirow{3}{4em}{24.2} \\
+				Slot inner width $\tau_{slot,inner} [mm]$ & & & & & \\
+				back-iron thickness $h_{back-iron} [mm]$ & & & & & \\
+				Tooth height $h_{teeth} [mm]$ & \multirow{2}{4em}{50.5} & \multirow{2}{4em}{52.5} & \multirow{2}{4em}{53.3} & \multirow{2}{4em}{54.8} & \multirow{2}{4em}{55.5} \\
+				Slot heigth $h_{teeth} [mm]$ &  &  &  &  & \\
+				Slot outer width $\tau_{slot,outer} [mm]$ & 39.9 & 41.4 & 42.0 & 43.2 & 43.8 \\
+				\hline
+				$Q=24$ & $p=16$ & $p=20$ & $p=22$ & $p=26$ & $p=28$ \\
+				\hline
+				Linear Current Density $J [A/mm^2]$ & 3.96 & 3.81 & 3.75 & 3.65 & 2.60 \\
+				Specific Machine Constant & 287076 & 320225 & 317573 & 317573 & 320225 \\
+				Axial Length $l [mm]$ & 49.6 & 46.1 & 44.6 & 42.2 & 41.2 \\
+				Winding Factor $k_w$ & 0.866 & 0.966 & 0.958 & 0.958 & 0.966 \\
+				Rotor outer diameter $D_{ro} [mm]$ & 252.2 & 261.7 & 265.9 & 273.4 & 276.8 \\
+				Stator inner diameter $D_{si} [mm]$ & 253.4 & 263.0 & 267.2 & 274.7 & 278.1 \\
+				Stator outer diameter $D_{so} [mm]$ & 391.5 & 406.3 & 412.8 & 424.5 & 429.8 \\
+				Tooth width $\tau_{teeth} [mm]$ & \multirow{3}{4em}{16.5} & \multirow{3}{4em}{17.1} & \multirow{3}{4em}{17.4} & \multirow{3}{4em}{17.9} & \multirow{3}{4em}{18.1} \\
+				Slot inner width $\tau_{slot,inner} [mm]$ & & & & & \\
+				back-iron thickness $h_{back-iron} [mm]$ & & & & & \\
+				Tooth height $h_{teeth} [mm]$ & \multirow{2}{4em}{52.5} & \multirow{2}{4em}{54.5} & \multirow{2}{4em}{55.4} & \multirow{2}{4em}{57.0} & \multirow{2}{4em}{57.7} \\
+				Slot heigth $h_{teeth} [mm]$ &  &  &  &  & \\
+				Slot outer width $\tau_{slot,outer} [mm]$ & 29.9 & 31.0 & 31.5 & 32.4 & 32.8 \\
+			\end{tabular}
+		\end{center}
+		\caption{Machine Parameters}
+		\label{tab:EMparameters}
+	\end{table}
 	
 	
 	
+	
+					number of coils
+				cable size
 	
 	\section{FEA Modelling}
 	\section{Comparison \& Discussion}
