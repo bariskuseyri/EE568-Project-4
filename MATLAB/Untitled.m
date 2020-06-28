@@ -173,13 +173,13 @@ B_gap_real = [0.95436 0.94957 0.95353 0.94894 0.94773; 0.95240 0.95191 0.95023 0
 T_cogg_norm = (T_cogg./B_gap_real).*0.95;
 
 figure(1)
-g1 = bar(p(1,:),T_cogg_norm);
-colormap(summer(n));
+g1 = bar(p(1,:),T_cogg_norm,'FaceColor','flat');
 ax = gca;
 ax.XGrid = 'off';
 ax.YGrid = 'on';
 
-% ,'FaceColor','w','EdgeColor','k'
+
+
 xtips1 = g1(1).XEndPoints;
 ytips1 = g1(1).YEndPoints;
 labels1 = string(g1(1).YData);
@@ -191,8 +191,19 @@ labels2 = string(g1(2).YData);
 text(xtips2,ytips2,labels2,'HorizontalAlignment','center',...
     'VerticalAlignment','bottom')
 
-ylabel('{\itCogging Torque: T_{cogg} [Nm]}')
-xlabel('{\itnumber of poles: 2p}')
+ylabel('Cogging Torque: {\itT_{cogg} [Nm]}')
+xlabel('number of poles: {\it2p}')
 l = cell(1,2);
-l{1}='L'; l{2}='B'; 
+l{1}='Q=18'; l{2}='Q=24'; 
 legend(g1,l);
+
+%% Skew
+
+a = (tooth_width(2,4)/52).*[1 2 4 6 8 10];
+theta_sk = ((2*pi)/(48*52)).*[1 2 4 6 8 10];
+k_sk=sin(theta_sk./2)./(theta_sk./2);
+
+
+
+
+

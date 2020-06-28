@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.11.24)  28 JUN 2020 15:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.11.24)  28 JUN 2020 23:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -627,41 +627,72 @@ Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
 \multirow@cntb=\count294
 \multirow@dima=\skip56
 \bigstrutjot=\dimen279
+)
+(c:/texlive/2019/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2019/09/01 v3.3d Customizing captions (AR)
+
+(c:/texlive/2019/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2019/09/01 v1.8d caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen280
+\captionmargin@=\dimen281
+\captionwidth=\dimen282
+\caption@tempdima=\dimen283
+\caption@indent=\dimen284
+\caption@parindent=\dimen285
+\caption@hangindent=\dimen286
+)
+\c@caption@flags=\count295
+\c@ContinuedFloat=\count296
+)
+(c:/texlive/2019/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2019/09/01 v1.3a Sub-captions (AR)
+\c@subfigure=\count297
+\c@subtable=\count298
 ) (./Report.aux
 
-LaTeX Warning: Label `fig:EMoperations' multiply defined.
+LaTeX Warning: Label `fig:five over x' multiply defined.
 
 
-LaTeX Warning: Label `tab:materialSelection' multiply defined.
+LaTeX Warning: Label `sub@fig:five over x' multiply defined.
+
+
+LaTeX Warning: Label `fig:five over x' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:five over x' multiply defined.
+
+
+LaTeX Warning: Label `tab:fluxDensityinCrit.1' multiply defined.
 
 )
 \openout1 = `Report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
  ABD: EveryShipout initializing macros
 (c:/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count295
-\scratchdimen=\dimen280
+\scratchcounter=\count299
+\scratchdimen=\dimen287
 \scratchbox=\box61
-\nofMPsegments=\count296
-\nofMParguments=\count297
+\nofMPsegments=\count300
+\nofMParguments=\count301
 \everyMPshowfont=\toks34
-\MPscratchCnt=\count298
-\MPscratchDim=\dimen281
-\MPnumerator=\count299
-\makeMPintoPDFobject=\count300
+\MPscratchCnt=\count302
+\MPscratchDim=\dimen288
+\MPnumerator=\count303
+\makeMPintoPDFobject=\count304
 \everyMPtoPDFconversion=\toks35
 ) (c:/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -715,136 +746,56 @@ G,.JBIG2,.JB2,.eps]
 (c:/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
-)) [1
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+ [1
 
 {c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./Report.toc)
 \tf@toc=\write4
 \openout4 = `Report.toc'.
 
  [1]
-
-LaTeX Warning: Citation `farshadnia_advanced_2018' on page 2 undefined on input
- line 23.
-
-
-LaTeX Warning: Citation `farshadnia_advanced_2018' on page 2 undefined on input
- line 44.
-
-
-LaTeX Warning: Citation `bianchi_use_2006' on page 2 undefined on input line 47
-.
-
-
-LaTeX Warning: Citation `el-refaie_fractional-slot_2010' on page 2 undefined on
- input line 47.
-
-
-LaTeX Warning: Citation `ishak_comparison_2006' on page 2 undefined on input li
-ne 47.
-
-
-LaTeX Warning: Citation `bianchi_use_2006' on page 2 undefined on input line 50
-.
-
-
-LaTeX Warning: Citation `farshadnia_advanced_2018' on page 2 undefined on input
- line 58.
-
 [2]
 
-LaTeX Warning: Citation `farshadnia_advanced_2018' on page 3 undefined on input
- line 68.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Citation `farshadnia_advanced_2018' on page 3 undefined on input
- line 69.
-
-
-LaTeX Warning: Citation `zhu_influence_2000' on page 3 undefined on input line 
-73.
-
-
-LaTeX Warning: Citation `masmoudi_fractional_2011' on page 3 undefined on input
- line 73.
-
-
-LaTeX Warning: Citation `zhu_influence_2014' on page 3 undefined on input line 
-73.
-
-
-LaTeX Warning: Citation `jahns_pulsating_1996' on page 3 undefined on input lin
-e 73.
-
-
-LaTeX Warning: Citation `azar_influence_2012' on page 3 undefined on input line
- 73.
-
-
-LaTeX Warning: Citation `jahns_pulsating_1996' on page 3 undefined on input lin
-e 73.
-
-
-LaTeX Warning: Citation `jahns_pulsating_1996' on page 3 undefined on input lin
-e 73.
-
-
-LaTeX Warning: Citation `wang_cogging_2013' on page 3 undefined on input line 7
-3.
-
-
-LaTeX Warning: Citation `ahsanullah_design_2013' on page 3 undefined on input l
-ine 73.
-
-
-LaTeX Warning: Citation `jahns_pulsating_1996' on page 3 undefined on input lin
-e 73.
-
-
-LaTeX Warning: Citation `wu_design_2015' on page 3 undefined on input line 73.
-
-[3]
-
-LaTeX Warning: Citation `farshadnia_advanced_2018' on page 4 undefined on input
- line 77.
-
-[4]
-<chiRatio.png, id=30, 853.08713pt x 170.13562pt>
+[3] [4]
+<chiRatio.png, id=31, 853.08713pt x 170.13562pt>
 File: chiRatio.png Graphic file (type png)
 <use chiRatio.png>
-Package pdftex.def Info: chiRatio.png  used on input line 156.
+Package pdftex.def Info: chiRatio.png  used on input line 121.
 (pdftex.def)             Requested size: 473.81102pt x 94.49648pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-\g__nm_max_cell_width_dim=\dimen282
-\c@iRow=\count301
-\c@jCol=\count302
-\g__nm_row_total_int=\count303
-\g__nm_col_total_int=\count304
-\g__nm_last_vdotted_col_int=\count305
-\g__nm_left_delim_dim=\dimen283
-\g__nm_right_delim_dim=\dimen284
+\g__nm_max_cell_width_dim=\dimen289
+\c@iRow=\count305
+\c@jCol=\count306
+\g__nm_row_total_int=\count307
+\g__nm_col_total_int=\count308
+\g__nm_last_vdotted_col_int=\count309
+\g__nm_left_delim_dim=\dimen290
+\g__nm_right_delim_dim=\dimen291
 \l__nm_the_array_box=\box62
-\g__nm_dp_row_zero_dim=\dimen285
-\g__nm_ht_row_zero_dim=\dimen286
-\g__nm_ht_row_one_dim=\dimen287
-\g__nm_dp_ante_last_row_dim=\dimen288
-\g__nm_ht_last_row_dim=\dimen289
-\g__nm_dp_last_row_dim=\dimen290
-\l__nm_ddots_int=\count306
-\l__nm_iddots_int=\count307
-\l__nm_delta_x_one_dim=\dimen291
-\l__nm_delta_y_one_dim=\dimen292
-\l__nm_delta_x_two_dim=\dimen293
-\l__nm_delta_y_two_dim=\dimen294
-\l__nm_initial_i_int=\count308
-\l__nm_initial_j_int=\count309
-\l__nm_final_i_int=\count310
-\l__nm_final_j_int=\count311
+\g__nm_dp_row_zero_dim=\dimen292
+\g__nm_ht_row_zero_dim=\dimen293
+\g__nm_ht_row_one_dim=\dimen294
+\g__nm_dp_ante_last_row_dim=\dimen295
+\g__nm_ht_last_row_dim=\dimen296
+\g__nm_dp_last_row_dim=\dimen297
+\l__nm_ddots_int=\count310
+\l__nm_iddots_int=\count311
+\l__nm_delta_x_one_dim=\dimen298
+\l__nm_delta_y_one_dim=\dimen299
+\l__nm_delta_x_two_dim=\dimen300
+\l__nm_delta_y_two_dim=\dimen301
+\l__nm_initial_i_int=\count312
+\l__nm_initial_j_int=\count313
+\l__nm_final_i_int=\count314
+\l__nm_final_j_int=\count315
+ [5 <./chiRatio.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[6] [7]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -852,119 +803,96 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Citation `wu_optimal_2010' on page 5 undefined on input line 216
-.
+LaTeX Warning: Reference `resultslvl1' on page 8 undefined on input line 332.
 
-[5] [6 <./chiRatio.png>]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[7]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
+[8]
+<Tcogg_lvl1.png, id=48, 963.29887pt x 459.21562pt>
+File: Tcogg_lvl1.png Graphic file (type png)
+<use Tcogg_lvl1.png>
+Package pdftex.def Info: Tcogg_lvl1.png  used on input line 342.
+(pdftex.def)             Requested size: 473.81102pt x 225.87248pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Citation `alberti_theory_2011' on page 8 undefined on input line
- 418.
-
-
-LaTeX Warning: Citation `babitsky_investigation_2019' on page 8 undefined on in
-put line 419.
-
-
-LaTeX Warning: Citation `boglietti_electrical_2014' on page 8 undefined on inpu
-t line 420.
-
-
-LaTeX Warning: Citation `carraro_design_2018' on page 8 undefined on input line
- 421.
-
-
-LaTeX Warning: Citation `choi_reduction_2016' on page 8 undefined on input line
- 422.
-
-
-LaTeX Warning: Citation `dajaku_advanced_2019' on page 8 undefined on input lin
-e 423.
-
-
-LaTeX Warning: Citation `el-refaie_advanced_2014' on page 8 undefined on input 
-line 424.
-
-
-LaTeX Warning: Citation `el-refaie_fractional-slot_2010' on page 8 undefined on
- input line 425.
+[9 <./Tcogg_lvl1.png>]
+<Tcogg_2426_a-0.png, id=52, 502.87875pt x 223.43475pt>
+File: Tcogg_2426_a-0.png Graphic file (type png)
+<use Tcogg_2426_a-0.png>
+Package pdftex.def Info: Tcogg_2426_a-0.png  used on input line 377.
+(pdftex.def)             Requested size: 192.11646pt x 85.35826pt.
+<Tcogg_2426_a-half.png, id=53, 502.87875pt x 223.43475pt>
+File: Tcogg_2426_a-half.png Graphic file (type png)
+<use Tcogg_2426_a-half.png>
+Package pdftex.def Info: Tcogg_2426_a-half.png  used on input line 384.
+(pdftex.def)             Requested size: 192.11646pt x 85.35826pt.
+<Tcogg_2426_a-1.png, id=54, 502.87875pt x 223.43475pt>
+File: Tcogg_2426_a-1.png Graphic file (type png)
+<use Tcogg_2426_a-1.png>
+Package pdftex.def Info: Tcogg_2426_a-1.png  used on input line 391.
+(pdftex.def)             Requested size: 192.11646pt x 85.35826pt.
+<Tcogg_2426_a-2.png, id=55, 502.87875pt x 223.43475pt>
+File: Tcogg_2426_a-2.png Graphic file (type png)
+<use Tcogg_2426_a-2.png>
+Package pdftex.def Info: Tcogg_2426_a-2.png  used on input line 398.
+(pdftex.def)             Requested size: 192.11646pt x 85.35826pt.
+<Tcogg_2426_a-3.png, id=56, 502.87875pt x 223.43475pt>
+File: Tcogg_2426_a-3.png Graphic file (type png)
+<use Tcogg_2426_a-3.png>
+Package pdftex.def Info: Tcogg_2426_a-3.png  used on input line 405.
+(pdftex.def)             Requested size: 192.11646pt x 85.35826pt.
 
 
-LaTeX Warning: Citation `el-refaie_fractional-slot_2013' on page 8 undefined on
- input line 426.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Citation `farshadnia_advanced_2018' on page 8 undefined on input
- line 427.
+Overfull \hbox (64.47958pt too wide) in paragraph at lines 440--447
+ [] 
+ []
 
 
-LaTeX Warning: Citation `farshadnia_detailed_2016' on page 8 undefined on input
- line 428.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Citation `geun-ho_lee_torque_2008' on page 8 undefined on input 
-line 429.
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<airgapFluxDensityDist.png, id=57, 502.87875pt x 223.43475pt>
+File: airgapFluxDensityDist.png Graphic file (type png)
+<use airgapFluxDensityDist.png>
+Package pdftex.def Info: airgapFluxDensityDist.png  used on input line 483.
+(pdftex.def)             Requested size: 473.81102pt x 210.51964pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Citation `guemes_comparative_2010' on page 8 undefined on input 
-line 430.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Citation `han_torque_2007' on page 8 undefined on input line 431
-.
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<inducedVoltages.png, id=58, 502.87875pt x 223.43475pt>
+File: inducedVoltages.png Graphic file (type png)
+<use inducedVoltages.png>
+Package pdftex.def Info: inducedVoltages.png  used on input line 532.
+(pdftex.def)             Requested size: 473.81102pt x 210.51964pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Citation `he_evaluation_2019' on page 8 undefined on input line 
-432.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
+<maxpower.png, id=59, 502.87875pt x 223.43475pt>
+File: maxpower.png Graphic file (type png)
+<use maxpower.png>
+Package pdftex.def Info: maxpower.png  used on input line 561.
+(pdftex.def)             Requested size: 473.81102pt x 210.51964pt.
 
-LaTeX Warning: Citation `howell_getting_2018' on page 8 undefined on input line
- 433.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Citation `jussila_guidelines_2007' on page 8 undefined on input 
-line 434.
-
-
-LaTeX Warning: Citation `masmoudi_design_2019' on page 8 undefined on input lin
-e 435.
-
-
-LaTeX Warning: Citation `reddy_generalized_2014' on page 8 undefined on input l
-ine 436.
-
-
-LaTeX Warning: Citation `seok-hee_han_torque_2010' on page 8 undefined on input
- line 437.
-
-
-LaTeX Warning: Citation `yokoi_general_2016' on page 8 undefined on input line 
-438.
-
-
-LaTeX Warning: Citation `zhu_analysis_2018' on page 8 undefined on input line 4
-39.
-
-
-LaTeX Warning: Citation `zhu_novel_2019' on page 8 undefined on input line 440.
-
-
-
-LaTeX Warning: Citation `zuopeng_design_2017' on page 8 undefined on input line
- 441.
-
-[8] [9]
-No file Report.bbl.
-[10] [11] (./Report.aux)
+[10] [11 <./Tcogg_2426_a-0.png> <./Tcogg_2426_a-half.png> <./Tcogg_2426_a-1.png
+> <./Tcogg_2426_a-2.png> <./Tcogg_2426_a-3.png>] [12 <./airgapFluxDensityDist.p
+ng>] (./Report.bbl [13 <./inducedVoltages.png>] [14 <./maxpower.png>]) [15]
+[16] [17] [18] (./Report.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -973,13 +901,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 23876 strings out of 492164
- 479224 string characters out of 6129087
- 516990 words of memory out of 5000000
- 27965 multiletter control sequences out of 15000+600000
- 538407 words of font info for 45 fonts, out of 8000000 for 9000
+ 25142 strings out of 492164
+ 502123 string characters out of 6129087
+ 554512 words of memory out of 5000000
+ 29211 multiletter control sequences out of 15000+600000
+ 538753 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,19n,67p,3165b,916s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,19n,67p,3165b,937s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
 live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2019
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2019/texmf-di
@@ -991,11 +919,12 @@ s/cm/cmr10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12
 exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2019
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2019/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2019/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Report.pdf (12 pages, 193881 bytes).
+ype1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmti10.pfb>
+Output written on Report.pdf (19 pages, 579334 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
- 70 compressed objects within 1 object stream
+ 135 PDF objects out of 1000 (max. 8388607)
+ 89 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 63 words of extra memory for PDF output out of 10000 (max. 10000000)
 

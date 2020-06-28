@@ -1,0 +1,6 @@
+$begin 'SolutionData'
+	Type='CoggingTorque'
+	$begin 'Data'
+		Datum(Dependent=0, Independent=2.395996487567186e-315)
+	$end 'Data'
+$end 'SolutionData'

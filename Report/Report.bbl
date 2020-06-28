@@ -1,0 +1,89 @@
+\begin{thebibliography}{10}
+
+\bibitem{farshadnia_advanced_2018}
+M.~Farshadnia, {\em Advanced {{Theory}} of {{Fractional}}-{{Slot
+  Concentrated}}-{{Wound Permanent Magnet Synchronous Machines}}}.
+\newblock Springer {{Theses}}, {Singapore}: {Springer Singapore}, 2018.
+
+\bibitem{bianchi_use_2006}
+N.~Bianchi and M.~Dai~Pre, ``Use of the star of slots in designing
+  fractional-slot single-layer synchronous motors,'' {\em IEE Proceedings -
+  Electric Power Applications}, vol.~153, no.~3, p.~459, 2006.
+
+\bibitem{el-refaie_fractional-slot_2010}
+A.~{EL-Refaie}, ``Fractional-{{Slot Concentrated}}-{{Windings Synchronous
+  Permanent Magnet Machines}}: {{Opportunities}} and {{Challenges}},'' {\em
+  IEEE Transactions on Industrial Electronics}, vol.~57, pp.~107--121, Jan.
+  2010.
+
+\bibitem{ishak_comparison_2006}
+D.~Ishak, Z.~Zhu, and D.~Howe, ``Comparison of {{PM Brushless Motors}},
+  {{Having Either All Teeth}} or {{Alternate Teeth Wound}},'' {\em IEEE
+  Transactions on Energy Conversion}, vol.~21, pp.~95--103, Mar. 2006.
+
+\bibitem{zhu_influence_2000}
+Z.~Q. Zhu and D.~Howe, ``Influence of {{Design Parameters}} on {{Cogging
+  Torque}} in {{Permanent Magnet Machines}},'' {\em IEEE TRANSACTIONS ON ENERGY
+  CONVERSION}, vol.~15, no.~4, p.~6, 2000.
+
+\bibitem{masmoudi_fractional_2011}
+Z.-Q. Zhu, ``Fractional slot permanent magnet brushless machines and drives for
+  electric and hybrid propulsion systems,'' {\em COMPEL - The international
+  journal for computation and mathematics in electrical and electronic
+  engineering}, vol.~30, pp.~9--31, Jan. 2011.
+
+\bibitem{zhu_influence_2014}
+Z.~Q. Zhu, L.~J. Wu, and M.~L. Mohd~Jamil, ``Influence of {{Pole}} and {{Slot
+  Number Combinations}} on {{Cogging Torque}} in {{Permanent}}-{{Magnet
+  Machines With Static}} and {{Rotating Eccentricities}},'' {\em IEEE
+  Transactions on Industry Applications}, vol.~50, pp.~3265--3277, Sept. 2014.
+
+\bibitem{jahns_pulsating_1996}
+T.~Jahns and W.~Soong, ``Pulsating torque minimization techniques for permanent
+  magnet {{AC}} motor drives-a review,'' {\em IEEE Transactions on Industrial
+  Electronics}, vol.~43, pp.~321--330, Apr. 1996.
+
+\bibitem{azar_influence_2012}
+Z.~Azar, Z.~Q. Zhu, and G.~Ombach, ``Influence of {{Electric Loading}} and
+  {{Magnetic Saturation}} on {{Cogging Torque}}, {{Back}}-{{EMF}} and {{Torque
+  Ripple}} of {{PM Machines}},'' {\em IEEE Transactions on Magnetics}, vol.~48,
+  pp.~2650--2658, Oct. 2012.
+
+\bibitem{wang_cogging_2013}
+D.~Wang, X.~Wang, and S.-Y. Jung, ``Cogging {{Torque Minimization}} and
+  {{Torque Ripple Suppression}} in {{Surface}}-{{Mounted Permanent Magnet
+  Synchronous Machines Using Different Magnet Widths}},'' {\em IEEE
+  Transactions on Magnetics}, vol.~49, pp.~2295--2298, May 2013.
+
+\bibitem{ahsanullah_design_2013}
+K.~Ahsanullah, R.~Dutta, and M.~Rahman, ``Design of a {{4KW}} interior
+  permanent magnet machine suitable for low speed application,'' in {\em 2013
+  {{International Conference}} on {{Electrical Machines}} and {{Systems}}
+  ({{ICEMS}})}, ({Busan}), pp.~986--991, {IEEE}, Oct. 2013.
+
+\bibitem{wu_design_2015}
+D.~Wu and Z.~Q. Zhu, ``Design {{Tradeoff Between Cogging Torque}} and {{Torque
+  Ripple}} in {{Fractional Slot Surface}}-{{Mounted Permanent Magnet
+  Machines}},'' {\em IEEE Transactions on Magnetics}, vol.~51, pp.~1--4, Nov.
+  2015.
+
+\bibitem{pyrhonen_design_2014}
+J.~Pyrhonen, T.~Jokinen, and V.~Hrabovcov{\'a}, {\em Design of Rotating
+  Electrical Machines}.
+\newblock {Chichester, West Sussex, United Kingdom}: {Wiley}, second
+  edition~ed., 2014.
+
+\bibitem{wu_optimal_2010}
+L.~J. Wu, Z.~Q. Zhu, J.~T. Chen, Z.~P. Xia, and G.~W. Jewell, ``Optimal {{Split
+  Ratio}} in {{Fractional}}-{{Slot Interior Permanent}}-{{Magnet Machines With
+  Non}}-{{Overlapping Windings}},'' {\em IEEE Transactions on Magnetics},
+  vol.~46, pp.~1235--1242, May 2010.
+
+\bibitem{pellegrino_rediscovery_2016-1}
+G.~Pellegrino, T.~M. Jahns, N.~Bianchi, W.~Soong, and F.~Cupertino, {\em The
+  {{Rediscovery}} of {{Synchronous Reluctance}} and {{Ferrite Permanent Magnet
+  Motors}}}.
+\newblock {{SpringerBriefs}} in {{Electrical}} and {{Computer Engineering}},
+  {Cham}: {Springer International Publishing}, 2016.
+
+\end{thebibliography}

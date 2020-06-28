@@ -1,29 +1,40 @@
 \contentsline {section}{\numberline {1}Introduction}{2}%
 \contentsline {subsection}{\numberline {1.1}Aims \& Objectives}{2}%
 \contentsline {section}{\numberline {2}Literature Review}{2}%
-\contentsline {subsection}{\numberline {2.1}Torque Density}{3}%
-\contentsline {subsection}{\numberline {2.2}Torque Ripple}{3}%
-\contentsline {section}{\numberline {3}Analytical Calculation \& Sizing}{4}%
+\contentsline {subsection}{\numberline {2.1}Cogging Torque}{2}%
+\contentsline {section}{\numberline {3}Analytical Calculation \& Sizing}{3}%
 \contentsline {subsection}{\numberline {3.1}Magnetic Loading \& Electrical Loading}{4}%
-\contentsline {subsection}{\numberline {3.2}Specific Machine Constant}{5}%
-\contentsline {subsection}{\numberline {3.3}Rough Dimensions}{5}%
-\contentsline {paragraph}{Rotor Volume $V_r$}{5}%
+\contentsline {subsection}{\numberline {3.2}Specific Machine Constant}{4}%
+\contentsline {subsection}{\numberline {3.3}Rough Dimensions}{4}%
+\contentsline {paragraph}{Rotor Volume $V_r$}{4}%
 \contentsline {paragraph}{Air-gap Clearance}{5}%
 \contentsline {paragraph}{Equivalent Machine Length to Air-gap Diameter $\chi =\frac {l'}{D_g}$}{5}%
 \contentsline {subsection}{\numberline {3.4}Winding Configurations}{5}%
-\contentsline {subsection}{\numberline {3.5}Machine Parameters}{6}%
-\contentsline {paragraph}{Split Ratio $\lambda $}{6}%
-\contentsline {paragraph}{teeth/slot opening}{7}%
-\contentsline {paragraph}{back-core thickness}{7}%
-\contentsline {paragraph}{teeth/slot height}{7}%
-\contentsline {paragraph}{slot outer length}{7}%
-\contentsline {paragraph}{slot tip width}{7}%
-\contentsline {subsection}{\numberline {3.6}Material selection}{8}%
-\contentsline {paragraph}{Magnet Material}{8}%
-\contentsline {paragraph}{Lamination Material}{8}%
-\contentsline {subsection}{\numberline {3.7}Electrical circuit parameter}{8}%
+\contentsline {subsection}{\numberline {3.5}Machine Parameters}{5}%
+\contentsline {paragraph}{Split Ratio $\lambda $}{5}%
+\contentsline {paragraph}{Teeth/slot opening}{6}%
+\contentsline {paragraph}{Back-core thickness}{6}%
+\contentsline {paragraph}{Teeth/slot height}{6}%
+\contentsline {paragraph}{Slot outer length}{6}%
+\contentsline {paragraph}{Slot tip width}{7}%
+\contentsline {paragraph}{Rotor IPM parameters}{7}%
+\contentsline {subsection}{\numberline {3.6}Material selection}{7}%
+\contentsline {paragraph}{Magnet Material}{7}%
+\contentsline {paragraph}{Lamination Material}{7}%
+\contentsline {subsection}{\numberline {3.7}Electrical circuit parameter}{7}%
+\contentsline {paragraph}{Flux per Pole}{7}%
 \contentsline {subsection}{\numberline {3.8}Overall}{8}%
-\contentsline {section}{\numberline {4}FEA Modelling}{9}%
+\contentsline {section}{\numberline {4}FEA Modelling: Comparing Winding Configurations}{8}%
 \contentsline {section}{\numberline {5}Comparison \& Discussion}{9}%
-\contentsline {section}{\numberline {6}Conclusion}{9}%
-\contentsline {section}{\numberline {7}Draft}{9}%
+\contentsline {subsection}{\numberline {5.1}Further Cogging Torque Optimization: Utilizing Skewed Stators}{9}%
+\contentsline {subsection}{\numberline {5.2}Further Dimensional Optimization: Increasing Stator Teeth and Yoke Flux Density}{10}%
+\contentsline {subsection}{\numberline {5.3}Final Design}{10}%
+\contentsline {paragraph}{Mechanical Parameters}{10}%
+\contentsline {paragraph}{Air-gap Flux Density Distribution}{10}%
+\contentsline {paragraph}{Flux density distribution: Stator Teeth, Stator Yoke and Rotor Yoke}{10}%
+\contentsline {paragraph}{Phase resistance and Inductances}{10}%
+\contentsline {paragraph}{Induced Phase and Line Voltages}{10}%
+\contentsline {paragraph}{Efficiency calculation}{10}%
+\contentsline {paragraph}{Maximum Power}{10}%
+\contentsline {subsection}{\numberline {5.4}Evaluation of the Design}{12}%
+\contentsline {section}{\numberline {6}Conclusion}{12}%
